@@ -1,0 +1,140 @@
+div.wrap{
+  height:calc(100% + 104px) !important;
+}
+div.body{
+  background-color:#fff !important;
+}
+div.search_box{
+  position:relative;
+  width:calc(100% - 40px/*rt padding*/ - 40px/*lt padding*/ );
+  height:calc(104px - 24.5px/*top padding*/ - 23.5px/*bottom padding*/);
+  background-color:#fff;
+  text-align:center;
+  padding: 24.5px 40px 23.5px 40px;
+}
+div.search_radius{
+  position:relative;
+  width:100%;
+  height:54px;
+  border-radius:50px;
+  background-color:#fff;
+  border: 1px solid #d1cdcc;
+}
+div.search_magnifier{
+  position:relative;
+  float:left;
+  width:30px;
+  height:32px;
+  margin: 10.5px 5px 13.5px 15px;/*디자이너와상의할것*/
+  background-image:url('../img/search_search.png');
+  background-position: 10.5px 5px 13.5px 15px;
+  background-size:auto;
+  background-repeat:no-repeat;
+  
+}
+div.search_input{
+  position:relative;
+  float:left;
+  width:calc(100% - 30px - 5px - 15px - 22px - 20px - 20px);
+  height:56px;
+}
+input.search_input{
+  position:relative;
+  width:100%;
+  height:calc(100% - 2px);
+  border:0;
+  padding:0;
+  font-size:26px;
+  color:#d1cdcc;
+
+}
+div.search_cancel{
+  position:relative;
+  float:left;
+  width:22px;
+  height:22px;
+  margin: 16.5px 20px 17.5px 20px;/*디자이너와상의할것*/
+  background-image:url('../img/search_cancel.png');
+  background-position: 16.5px 20px 17.5px 20px;/*디자이너와상의할것*/
+  background-size:auto;
+  background-repeat:no-repeat;
+
+
+}
+div.each_history_new{
+  position:relative;
+  width:100%;
+  height:295px;
+  background-color:#f1f1f1;
+  
+}
+div.each_history_old{
+  position:relative;
+  width:100%;
+  height:295px;
+  background-color:#fff;
+}
+
+div.list_colum{
+  width:100%;
+  height:1px;
+  background-color:#d1cdcc;
+}
+div.list_left{
+  position:relative;
+  float:left;
+  /* ON RESPONSIVE
+  width:calc( 100% * ( 194 / 720 ) );
+  */
+  width:330px;
+  height:100%;
+}
+div.icon_img{
+  position: absolute;
+  width:250px;
+  height:250px;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0; 
+/* 아랫부분 나중에 삭제*/
+  border-radius:250px;
+  background-color:#d1cdcc;
+/* 윗부분 나중에 삭제 */
+
+}
+div.list_right{
+  position:relative;
+  float:left;
+  /* ON RESPONSIVE
+  width:calc(100% * ( 1 - ( 194 / 720) ) );
+  */
+  width:calc(100% - 330px);
+  height:100%;
+}
+div.textarea{
+  margin: auto auto 22px auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width:auto;
+  height:62px;
+  padding: 0 30px 0 0 ;
+/* 이거는 글씨 쪽에서 오른쪽에 30px 여백 */
+}
+div.text_title{
+  font-size:30px;
+  margin:0;
+  color:#333333;
+  
+}
+div.text_content{
+  font-size:22px;
+  color:#606161;
+  margin:0;
+
+}
+div.pointer{
+  position:absolute;
+  width:5px;
+  height:5px;
+  z-index:-1;
+  bottom:0;
+}

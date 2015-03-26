@@ -1,0 +1,154 @@
+/* signUp.css */
+div.back{
+  position:absolute;
+  top:28px;
+  left:30px;
+  width:31px;
+  height:58px;
+  background-image:url('../img/ic_back.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: auto;
+}
+
+p.tab_white{
+  text-align:center;
+  line-height:110px;
+  color:#fff;
+  font-size:32px;
+  margin:0px;
+}
+
+
+div.body{
+  min-height:calc(100% - 90px/*head*/ - 110px/*tab*/ - 2px/*colum*/ ) !important;
+  padding:209px 30px 30px 30px;
+}
+
+div.radius_input{
+  position:relative;
+  background-color:#fff;
+  border-radius:80px;
+  height:80px;
+  width:100%;
+  margin-bottom:30px;
+}
+input.radius_input{
+  position:absolute;
+  margin:auto 480px auto 43px;
+  left:0; right:0; top:0; bottom:0;
+  width:100%;
+  height:30px;
+  border:0;
+  font-size:30px;
+  color:#d1cdcc;
+  padding:0;
+}
+div.input_valid{
+  position:absolute;
+  top:25px;
+  right:22px;
+  border-radius:26px;
+  background-color:#ffca10;
+  width:26px;
+  height:26px;
+}
+div.input_invalid{
+  position:absolute;
+  top:25px;
+  right:22px;
+  border-radius:26px;
+  background-color:#d1cdcc;
+  width:26px;
+  height:26px;
+}
+div.text_box{
+  position:relative;
+  width:100%;
+  height:72px;
+  margin-top:80px;
+}
+div.gray_text{
+  width:490px;
+  height:72px;
+  text-align:center;
+  font-size:30px;
+  color:#d1cdcc;
+}
+div.gray_text2{
+  width:302px;
+  height:73px;
+  text-align:center;
+  font-size:30px;
+  color:#d1cdcc;
+}
+div.sign_up_box{
+  position:relative;
+  margin-top:170px;
+  width:100%;
+  height:90px;
+}
+div.sign_up_button{
+  height:90px;
+  width:330px;
+  border-radius:90px;
+  background-color:#ffca10;
+  font-size:30px;
+  color:#fff;
+  text-align:center;
+}
+div.find_box{
+  margin-top:170px;
+  position:relative;
+}
+div.find{
+  height:72px;
+  width:200px;
+  text-decoration:underline;
+  color:#d1cdcc;
+  font-size:30px;
+}
+
+.absolute_center{
+  position:absolute;
+  margin:auto;
+  right:0; left:0; top:0; bottom:0;
+}
+.text_white_30{
+  font-size:30px;
+  height:30px;
+  color:#fff;
+}
+.text_white_45{
+  font-size:45px;
+  height:45px;
+  color:#fff;
+}
+.text_center{
+  text-align:center;
+}
+div.modal_top{
+  position:relative;
+  height:90px;
+  width:100%;
+  background-color:#ffca10;
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+}
+div.modal_bottom{
+  position:relative;
+  height:160px;
+  width:100%;
+  background-color:#ffffff;
+  border-bottom-left-radius:50px;
+  border-bottom-right-radius:50px;
+}
+div.logos{
+  width:261px;
+  height:45px;
+  background-image:url('../img/logo.png');kA
+  background-position:center center;
+  background-size:auto;
+  background-repeat:no-repeat;
+
+}

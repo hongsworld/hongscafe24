@@ -1,0 +1,100 @@
+<!-- 검색 기능을 표시할 <div>를 생성한다 --><div id="postcodify"></div><!-- jQuery와 Postcodify를 로딩한다 --><script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script><script src="http://cdn.poesis.kr/post/search.min.js"></script><link href="http://cdn.poesis.kr/post/search.css" rel="stylesheet" media="all" /><!-- 위에서 생성한 <div>에 검색 기능을 표시하고, 결과를 입력할 <input>들과 연동한다 --><script>    $(function() { $("#postcodify").postcodify({        insertPostcode6 : "#postcode6",        insertJibeonAddress : "#address",        insertDetails : "#details",        insertExtraInfo : "#extra_info",        useAlert: "true"    }); });</script>,V
+<!-- jQuery와 Postcodify를 로딩한다 --><script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script><script src="http://cdn.poesis.kr/post/search.min.js"></script><link href="http://cdn.poesis.kr/post/search.css" rel="stylesheet" media="all" /><!-- 위에서 생성한 <div>에 검색 기능을 표시하고, 결과를 입력할 <input>들과 연동한다 --><script>    $(function() { $("#postcodify").postcodify({        insertPostcode6 : "#postcode6",        insertJibeonAddress : "#address",        insertDetails : "#details",        insertExtraInfo : "#extra_info",        useAlert: "true"    }); });</script>,V
+<input type="text" name="" id="postcode5" value="" /><br />,V
+<input type="text" name="" id="extra_info" value="" /><br />,V
+        hideOldAddresses : false,V
+        insertExtraInfo : "#extra_info",,V
+        insertPostcode6 : "#postcode5",,V
+first_table.rows[3].cells[3].text,v
+:,v
+s,v
+g,v
+n,v
+i,v
+d,v
+f,v
+ ,v
+c,v
+p,v
+o,v
+r,v
+M,v
+.,v
+2,v
+G,v
+1,v
+gross,v
+print "gross findings : "puts first_table.rows[5].cells[0].text.gsub("1. Gross findings:","temptemptemp").gsub("2. Microscopic findings:","temptemptemp").split("temptemptemp")[1],V
+m,v
+e,v
+t,v
+puts first_table.rows[5].cells[0].text,V
+puts first_table.rows[5].cells[0].text.gsub("1. Gross findings:","temptemptemp").gsub("2. Microscopic findings:","temptemptemptemp"),V
+\2\2\2\2\2\2\2\2\2\2,v
+split,v
+",v
+,,v
+, "2.Microscopic findings:",v
+puts k,V
+puts first_table.rows[3].cells[5].text,V
+,V
+종,v
+품,v
+print "품종 : "puts first_table.rows[2].cells[3].text,V
+print "품종 : "p,v
+화,v
+수,v
+elsif ,V
+if first_table.rows[3].cells[3].text.gsub(" ","") == "중성화 수",V
+u,v
+pr,V
+일,v
+보,v
+통,v
+의,v
+인,v
+뢰,v
+print "의뢰인 : "puts first_table.rows[2].cells[1].text,V
+print "의뢰일 : "puts first_table.rows[1].cells[1].text,V
+end,V
+d.paragraphs.each do |p|  puts p.to_html,V
+  puts p,V
+#,v
+k,v
+a,v
+v,v
+RAILS_ENV=production,v
+`rake db:creat,V
+e RAILS_ENV=production`,v
+integer,v
+      t.integer :item1,V
+      t.text :add_test,V
+to,v
+   root :to => 'web#index',V
+    redirect_to "http://vetnote.snu.ac.kr",V
+    render :text => "hi",V
+l,v
+b,v
+/,v
+example,v
+blog,v
+   match 'match "/blog" => redirect("",V
+  root :to => 'http://vetnote.snu.ac.kr',V
+    render :layout => false,V
+  redirect_to "http://vetnote.snu.ac.kr",V
+한,v
+rytnsla,v
+root,v
+.order(:week_id),v
+.gsub("major1","7").gsub("major2","6").gsub("major3","10").gsub("major4","4").gsub("major5","8").gsub("major6","1").gsub("major7","1").gsub("major8","11").gsub("major9","5"),v
+  puts a,V
+production:,v
+                $('.timetable').timepicker({                    'minTime': '7:00am',                    'maxTime': '9:00pm',                    'showDuration': false                    });,V
+            $('.timetable').timepicker({                'minTime': '7:00am',                'maxTime': '9:00pm',                'showDuration': false            });,V
+h25,v
+ placeholder='ex)09:00 - 10:00',v
+              <a href="#">마이페이지</a>,V
+              <a href="/vetnoteuser/logout">로그아웃</a>,V
+마이페이지,v
+-,v
+!,v

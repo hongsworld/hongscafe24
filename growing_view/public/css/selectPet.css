@@ -1,0 +1,23 @@
+/* index.css */
+div.body{
+  min-height:calc(100% - 90px/*head*/ - 110px/*tab*/ - 2px/*colum*/ ) !important;
+}
+p.select_character{
+  text-align:center;
+  line-height:110px;
+  color:#fff;
+  font-size:32px;
+  margin:0px;
+}
+div.newpet{
+  position:absolute;
+  width:65px;
+  height:65px;
+  background-image:url('../img/newpet.png');
+  background-position:center center;
+  background-size:auto;
+  background-repeat:no-repeat;
+  margin: auto 30px auto auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+}

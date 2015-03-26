@@ -1,0 +1,73 @@
+div.body{
+  background-color:#fff !important;
+}
+div.each_newquest_new{
+  position:relative;
+  width:100%;
+  height:148px;
+  background-color:#f1f1f1;
+  
+}
+div.each_newquest_old{
+  position:relative;
+  width:100%;
+  height:148px;
+  background-color:#fff;
+  
+}
+div.list_colum{
+  width:100%;
+  height:1px;
+  background-color:#d1cdcc;
+}
+div.list_left{
+  position:relative;
+  float:left;
+  /* ON RESPONSIVE
+  width:calc( 100% * ( 194 / 720 ) );
+  */
+  width:194px;
+  height:100%;
+}
+div.icon_img{
+  position: absolute;
+  width:115px;
+  height:115px;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0; 
+/* 아랫부분 나중에 삭제*/
+  border-radius:100px;
+  background-color:#d1cdcc;
+/* 윗부분 나중에 삭제 */
+
+}
+div.list_right{
+  position:relative;
+  float:left;
+  /* ON RESPONSIVE
+  width:calc(100% * ( 1 - ( 194 / 720) ) );
+  */
+  width:calc(100% - 194px);
+  height:100%;
+}
+div.textarea{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width:auto;
+  height:62px;
+  padding: 0 30px 0 0 ;
+/* 이거는 글씨 쪽에서 오른쪽에 30px 여백 */
+}
+div.text_title{
+  font-size:30px;
+  margin:0;
+  color:#333333;
+  
+}
+div.text_content{
+  font-size:22px;
+  color:#606161;
+  margin:0;
+
+}

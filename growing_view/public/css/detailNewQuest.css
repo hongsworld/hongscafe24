@@ -1,0 +1,89 @@
+div.body{
+  padding: 30px;
+  width: calc(100% - 30px - 30px) !important; 
+}
+
+div.box{
+  position:relative;
+  width:100%;
+  min-height:90px;
+  height:auto;
+  background-color:#ffffff;
+}
+
+div.box_margin_bottom{
+  position:relative;
+  width:100%;
+  min-height:90px;
+  height:auto;
+  background-color:#ffffff;
+  margin: 0 0 30px 0;
+}
+
+
+
+div.black_text{
+  font-size : 32px;
+  color : #333333;
+  height:auto;
+  padding:30px 30px 20px 30px;
+}
+/* 디자인수정이 필요할 부분 시작 */
+div.gray_text{
+  position:relative;
+  font-size : 32px;
+  color : #d1cdcc;
+  padding:30px 30px 20px 30px;
+  height:auto;
+}
+
+div.black_right_text{
+  font-size : 32px;
+  color : #333333;
+  position: absolute; /*1*/
+  padding:30px 30px 20px 30px; /*2*/
+  height:auto;
+  right:0;
+}
+/* 디자인수정이 필요할 부분 끝 */
+
+div.list_colum{
+  position:relative;
+  width:100%;
+  height:1px;
+  background-color:#d1cdcc;
+}
+
+
+div.decision{
+  position:relative;
+  width:100%;
+  height:90px;
+  margin: 30px 0 0 0 ;
+}
+
+div.yes{
+  position:relative;
+  float:left;
+  width:50%;
+  background-color:#ffca10;
+  height:100%;
+}
+
+div.no{
+  position:relative;
+  float:left;
+  width:50%;
+  background-color:#ff7c5c;
+  height:100%;
+}
+
+div.white_center_text{
+  font-size:32px;
+  color:#ffffff;
+  height:32px;
+  text-align:center;
+  position:absolute;
+  margin : auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}

@@ -1,0 +1,225 @@
+/* layout css */
+
+div.wrap {
+  top:0;
+  left:0;
+  position:absolute;
+  width:100%;
+  /* 타겟 기종에서는 720px*/
+  height:100%;
+  /* 타겟 기종에서는 1280px*/
+  overflow:scroll;
+}
+
+div.head {
+  position:fixed;
+  z-index:1;
+  top:0;
+  width:100%;
+  height:90px;
+  background-color:#786d60;
+  border-bottom:1px solid #ffffff;
+}
+
+div.tab{
+  position:fixed;
+  z-index:1;
+  top:91px;
+  width:100%;
+  height:110px;
+  background-color:#ffca10;
+  border-bottom:1px solid #ffffff;
+}
+
+div.logo{
+  position:absolute;
+  display:block;
+  width:261px;
+  height:45px;
+  left:30px;
+  top:22.5px;
+  background-image:url('../img/logo.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: auto ;
+}
+
+div.more{
+  position:absolute;
+  display:block;
+  width:65px;
+  height:65px;
+  right:30px;
+  top:12.5px;
+  background-image:url('../img/more.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: auto ;
+}
+div.profile{
+  position:relative;
+  display:block;
+  float:left;
+  width:58px;
+  height:89px;
+  margin-top:11px;
+  margin-bottom:10px;
+  margin-left:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px ) / 8);
+  margin-right:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px)  / 8);
+  background-image:url('../img/profile.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: auto ;
+}
+
+div.profile_selected{
+  position:relative;
+  display:block;
+  float:left;
+  width:58px;
+  height:89px;
+  margin-top:11px;
+  margin-bottom:10px;
+  margin-left:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px ) / 8);
+  margin-right:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px ) / 8);
+  background-image:url('../img/profile_selected.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: auto ;
+}
+
+div.newquest{
+  position:relative;
+  display:block;
+  float:left;
+  width:119px;
+  height:89px;
+  margin-top:11px;
+  margin-bottom:10px;
+  margin-left:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px ) / 8);
+  margin-right:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px ) / 8);
+  background-image:url('../img/newquest.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: auto ;
+}
+
+div.newquest_selected{
+  position:relative;
+  display:block;
+  float:left;
+  width:119px;
+  height:89px;
+  margin-top:11px;
+  margin-bottom:10px;
+  margin-left:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px ) / 8);
+  margin-right:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px)  / 8);
+  background-image:url('../img/newquest_selected.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: auto ;
+}
+
+div.ongoingquest{
+  position:relative;
+  display:block;
+  float:left;
+  width:118px;
+  height:89px;
+  margin-top:11px;
+  margin-bottom:10px;
+  margin-left:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px ) / 8);
+  margin-right:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px)  / 8);
+  background-image:url('../img/ongoingquest.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: auto ;
+
+}
+
+div.ongoingquest_selected{
+  position:relative;
+  display:block;
+  float:left;
+  width:118px;
+  height:89px;
+  margin-top:11px;
+  margin-bottom:10px;
+  margin-left:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px ) / 8);
+  margin-right:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px ) / 8);
+  background-image:url('../img/ongoingquest_selected.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: auto ;
+}
+
+div.history{
+  position:relative;
+  display:block;
+  float:left;
+  width:73px;
+  height:89px;
+  margin-top:11px;
+  margin-bottom:10px;
+  margin-left:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px ) / 8);
+  margin-right:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px)  / 8);
+  background-image:url('../img/history.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: auto ;
+}
+
+div.history_selected{
+  position:relative;
+  display:block;
+  float:left;
+  width:73px;
+  height:89px;
+  margin-top:11px;
+  margin-bottom:10px;
+  margin-left:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px ) / 8);
+  margin-right:calc(( 100% - 58px - 119px - 118px - 73px - 1px - 1px - 1px)  / 8);
+  background-image:url('../img/history_selected.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: auto ;
+}
+
+div.colum{
+  position:relative;
+  display:block;
+  float:left;
+  margin:15px 0 15px 0 ;
+  padding:0px;
+  height:80px;
+  width:1px;
+  background-color:white;
+}
+
+div.clear{
+  clear:both;
+}
+
+div.body{
+  position:relative;
+  width:100%;
+  margin-top:calc(91px + 111px);
+  height:auto;
+  min-height:calc(100% - 90px/*head*/ - 110px/*tab*/ - 2px/*colum*/ - 30px/*padding*/ - 30px/*padding*/);
+  background-color:#f1f1f1;
+}
+/*
+div.each_newquest{
+ position:relative;
+ width: calc( 100% - 29px - 29px);
+ height:90px;
+ background-color:#fff;
+}
+
+p.newquest_title{
+ padding: 27px 29px 27px 29px;
+  margin:0;
+  color:#333333;
+  font-size:32px;
+}
+  */

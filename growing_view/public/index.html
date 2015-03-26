@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=320" />
+    <title>Growing</title>
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquerymobile-1.4.1.css" />
+    <script type="text/javascript" src="js/jquery-2.0.2.js"></script>  
+    <script>
+    //page-transition pade
+    $(document).bind("mobileinit", function() {
+          $.mobile.defaultPageTransition = "slide"
+    });
+    </script>
+    <script type="text/javascript" src="js/jquerymobile-1.4.1.js"></script>
+    <script type="text/javascript" src="js/layout.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </head>
+  <body>
+    <div class = "wrap">
+      <div class = "start_logo" id="start_logo">
+      </div>
+      <div class = "button_area">
+        <div class = "login_button">
+          <div class = "center_white_text" id="signIn">
+           로그인 
+          </div>
+        </div>
+        <div class = "signup_button">
+          <div class = "center_white_text" id="signUp">
+            회원가입
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

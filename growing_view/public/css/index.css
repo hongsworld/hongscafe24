@@ -1,0 +1,109 @@
+/* index css */
+
+  div.wrap{
+    background-color:#786d60;
+  }
+
+  div.start_logo{
+    opacity:0;
+    position:absolute;
+    margin:auto;
+    left:0; right:0; top:0; bottom:0;
+    width:67.2222%;
+    height:auto;
+    background-image:url('../img/loading_logo.png');
+    background-position: center center;
+    background-size:100%;
+    background-repeat:no-repeat;
+  }
+
+  div.button_area{
+    position:absolute;
+    margin: auto;
+    left:0; right:0; top:55.234375%; bottom:0;
+
+    width:331px;
+    height:44.765525%;
+  }
+
+  div.login_button{
+    position:relative;
+    margin-top:193px;
+    height:91px;
+    width:100%;
+    border:1px solid #fff;
+    border-radius:45.5px;
+    opacity:0;
+  }
+
+  div.signup_button{
+    position:relative;
+    margin-top:30px;
+    height:91px;
+    width:100%;
+    border:1px solid #fff;
+    border-radius:45.5px;
+    opacity:0;
+  }
+/*
+  div.login_button.tappable-active{
+    position:relative;
+    margin-top:193px;
+    height:91px;
+    width:100%;
+    border:1px solid #fff;
+    background-color:#fff;
+    border-radius:45.5px;
+    opacity:1;
+  }
+
+  div.signup_button.tappable-active{
+    position:relative;
+    margin-top:30px;
+    height:91px;
+    width:100%;
+    border:1px solid #fff;
+    background-color:#fff;
+    border-radius:45.5px;
+    opacity:1;
+  }
+  */
+
+  div.center_white_text{
+    position:absolute;
+    margin:auto;
+    left:0; right:0; top:0; bottom:0;
+    height:30px;
+    text-align:center;
+    color:#fff;
+    font-size:30px;
+  }
+/*
+  div.center_white_text{
+    position:absolute;
+    margin:auto;
+    left:0; right:0; top:0; bottom:0;
+    height:30px;
+    text-align:center;
+    color:#fff;
+    font-size:30px;
+  }
+  div.tappable-active < div.center_white_text{
+    position:absolute;
+    margin:auto;
+    left:0; right:0; top:0; bottom:0;
+    height:30px;
+    text-align:center;
+    color:#786d60;
+    font-size:30px;
+  }
+  div.tappable-active < div.center_white_text{
+    position:absolute;
+    margin:auto;
+    left:0; right:0; top:0; bottom:0;
+    height:30px;
+    text-align:center;
+    color:#786d60;
+    font-size:30px;
+  }
+  */
