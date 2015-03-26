@@ -1,0 +1,100 @@
+puts m.name
+m.colum4.gsub("월","day1").gsub("화","day2").gsub("수","day3").gsub("목","day4").gsub("금","day5").split("day").each do |ma|
+puts ma
+puts "==========================================================="
+Major.find(7).colum4.gsub("월 :","day1").gsub("화 :","day2").gsub("수 :","day3").gsub("목 :","day4").gsub("금 :","day5").split("day")
+puts Major.find(7).colum4
+puts Major.find(7).colum4.inspect
+Major.find(7).colum4.gsub("월 :","day1").gsub("화 :","day2").gsub("수 :","day3").gsub("목 :","day4").gsub("금 :","day5")olum4
+Major.find(7).colum4.gsub("월 :","day1").gsub("화 :","day2").gsub("수 :","day3").gsub("목 :","day4").gsub("금 :","day5").gsub("토 :","day6").gsub("일 :","day7").split("day")
+Major.find(7).colum4.gsub("월 :","day1").gsub("화 :","day2").gsub("수 :","day3").gsub("목 :","day4").gsub("금 :","day5").gsub("토 :","day6").gsub("일 :","day7").split("day").each do |m|
+puts m
+Major.where(:name => "일반외과")
+a.colum4월 : 오리엔테이션, 진료업무\r\n\r\n화 : 진료 업무\r\n\r\n수 : \r\n목 : 관\r\n\r\n금 : 진료 업무\r\n\r\n토 : 토: 응급 \r\n일 : 참관\r\n
+a.colum4월 : 오리엔테이션, 진료업무\r\n\r\n화 : 진료 업무\r\n\r\n수 : \r\n목 : 수술참관\r\n\r\n금 : 진료 업무\r\n\r\n토 : 토: 응급 \r\n일 : 참관\r\n"
+a.colum4 = "월 : 오리엔테이션, 진료업무\r\n\r\n화 : 진료 업무\r\n\r\n수 : \r\n목 : 관\r\n\r\n금 : 진료 업무\r\n\r\n토 : 토: 응급 \r\n일 : 참관\r\n"
+a = User.where(:name => "윤희정").last
+a.name = "윤정희"
+a = Major.where(:name => "일반외과").last
+a.colum4
+User.cout
+User.count
+Questlarge(41)
+Questlarge.find(41)
+Questlarge.count
+Questlarge.where(:content => "Wound management").id
+Questlarge.where(:content => "Wound management").last.id
+Questlarge.find(48)
+Questlarge.find(49)
+Questlarge.all.each do |x|
+puts x.id
+puts x.content 
+puts "=============================================================================="
+Questsmall.where(:content => "Choose and apply bandage appropriate for patient (for head, thorax, abdomen, limb, etc)").last
+Usermajor.last
+User.methods!
+User.methods
+User.
+User.add_test
+User.id
+User.last.add_test
+User.last.id
+User.last
+USer
+User
+Mark
+User.all
+a.identification = "mine12"
+password = "test"
+Digest::SHA512.hexdigest(password)
+ls
+exit
+def one(name,id,password)
+a.generate_token
+a.name = name
+a.identification = id
+a.password =  Digest::SHA512.hexdigest(password)
+a.major_id = 1
+one("김늠름","test1","test1")
+one("이영희","test2","test2")
+one("김지운","test3","test3")
+one("남기웅","test4","test4")
+one("정지원","test5","test5")
+one("최정우","test6","test6")
+User.where(:name =>"윤화영").last
+a = User.where(:name =>"윤화영").last
+a.name = "test교수"
+a.identification = "testprofessor"
+a.password =  Digest::SHA512.hexdigest("testprofessor")
+User.where(:name = "").last
+User.where(:name => "").last
+User.where(:name => nil).last
+User.where(:name => nil).last.destroy
+1.upto(50)
+1.upto(to) do |x|
+1.upto(50) do |x|
+a = User.new
+a.major_id = rand(1..10)
+a.level = 2
+a.name = "#{x}"
+a.save
+Userquest
+1.upto(300)
+1.upto(300) do |x|
+count  = User.where(:level => 2).count
+student = User.where(:level => 2)
+u = student.last(rand(1..count.to_i)).first
+b = Userquest.new
+b.user_id = u.id
+b.questlarge_id = rand(1..101)
+b.save
+reload!
+User.where(:level => 2).first
+a = User.where(:level => 2).first
+a
+a.userquests.
+all
+a.userquests.all.each do |x|
+if x.log_date == nil
+x.destroy
+end

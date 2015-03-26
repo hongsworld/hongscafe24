@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"caches:EFI"CacheContextHelpers#caches;FI"R;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"IAn Array of Rack::Cache::Context instances used for each request, in;TI"request order.;T:
+@file0FI"test/spec_setup.rb;T

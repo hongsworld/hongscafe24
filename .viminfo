@@ -1,0 +1,2657 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 7.4.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Last Search Pattern:
+~MSle0/url
+
+# Last Substitute Search Pattern:
+~MSle0~&'img\/
+
+# 마지막으로 바꾼 문자열:
+$'\/kumdobu\/img\/
+
+# 명령 줄 히스토리 (새것부터 오래된 것 순):
+:q
+::q
+:w
+:%s/'img\//'\/kumdobu\/img\/
+:%s/..\/img/\/kumdobu\/img
+:set paste
+:wq
+:w!
+:require => ["docx"]
+:15
+:quit
+:Q!
+:qa
+:vs .
+:41
+:spl .
+:o .
+:q!
+:wa
+:131
+:Q
+:quit
+:Q!
+:4..
+:spl .
+:312
+:wa
+:335
+:131
+:kj:335
+:Q
+:%s/webweb/web
+:Vs .
+:4..
+:W
+:312
+:335
+:%s/admin/webadmin
+:kj:335
+:o 
+:O .
+:%s/webweb/web
+:wo .
+:spl 
+:W
+:40
+:%s/admin/webadmin
+:594
+:o 
+:549
+:O .
+:31
+:wo .
+:%s/Major.first.
+:spl 
+:391
+:40
+:92
+:594
+:qi
+:549
+:o
+:31
+:%s/temp/overlab
+:%s/Major.first.
+:391
+:92
+:qi
+:%s/%puts/%=
+:o
+:%s/%puts %=
+:%s/temp/overlab
+:%s/%puts/%=
+:%s/<%puts <%=
+:%s/%puts %=
+:'<,'>q
+:269
+:'<,'>q
+:ㅈㅁ
+:269
+:%s/restriction_hash\[@user/restriction_hash[:@user
+:ㅈㅁ
+:%s/restriction_hash\[@user/restriction_hash[:@user
+:%s/restriction_hash\[@user/restriction_hash[@user
+:%s/restriction_hash\[@user/restriction_hash[@user
+:%s/\[@user/[:@user
+:%s/\[@user/[:@user
+:%s/[@user/[:@user
+:%s
+:%s/[@user/[:@user
+:%s/hash[@user/hash[:@user
+:%s
+:%>
+:229
+:%s/hash[@user/hash[:@user
+:ㅈ:ㅈ
+:%>
+:wuuhhkk
+:229
+:%s/major_6/major6
+:ㅈ:ㅈ
+:wuuhhkk
+:%s/major_7/major7
+:141
+:w mail
+:21:
+:21
+:%s/major_6/major6
+:170
+:159
+:141
+:%s/type/type_id
+:w mail
+:/time
+:ㅈkj
+:100
+:21:
+:2
+:w temp
+:ㅈㅓㅓㅏ
+:21
+:ㅍㄴ. 
+:170
+:s .
+:159
+:56
+:%s/type/type_id
+:188
+:/time
+:353
+:ㅈkj
+:302
+:100
+:106
+:2
+:148
+:w temp
+:225
+:ㅈㅓㅓㅏ
+:205
+:ㅍㄴ. 
+:105
+:s .
+:%s/다른놈/다른div
+:56
+:188
+:%s/this_id/this_iden
+:353
+:20
+:302
+:vw .
+:106
+:vs 
+:148
+:s
+:225
+:ㅈ
+:205
+:qkjkjk
+:105
+:vs tester_get_pw.html.erb
+:%s/다른놈/다른div
+:w1
+:%s/this_id/this_iden
+:vw
+:20
+:2026
+:vw .
+:30
+:vs 
+:03
+:s
+:55
+:151
+:ㅈㅣㅑ
+:86
+:39
+:ㅈ
+:d
+:qkjkjk
+:%s/<%=item/<%=@item
+:vs tester_get_pw.html.erb
+:%s/%>/%>'
+:w1
+:%s/<%=/'<%=
+:vw
+:2026
+:30
+:%s/<
+:03
+:%s/=item/=@item
+:55
+:%s/학습일지/실습일지
+:ㅈㅣㅑ
+:%
+:86
+:.,.+2q
+:39
+:%s/실습일지/학습일지
+:d
+:60
+:;w
+:48
+:%s/<%=item/<%=@item
+:24
+:85
+:61
+:Qa
+:vs test.html
+:%s/%>/%>'
+:1
+:%s/<%=/'<%=
+:login
+:%s/<
+:'<,'>12
+:%s/=item/=@item
+:set psate
+:%s/학습일지/실습일지
+:%s/web/admin
+:%
+:.,.+2q
+:%s/실습일지/학습일지
+:60
+:%%s/web/admin
+:;w
+:'<,'>
+:48
+:22
+:24
+:85
+::
+:61
+:ㅈㅣㅣ
+:Qa
+:vs test.html
+:%s/<%/<%#
+:45
+:1
+:%s/<%=/<%#=
+:%s/
+:colum9
+:login
+:qw
+:ㅈㅓㅏㅓㅓㅏkkkjkkj
+:'<,'>12
+:jj
+:set psate
+:33
+:36
+:%s/web/admin
+:367
+:vx .
+:23
+:%%s/web/admin
+:32
+:'<,'>
+:%s/<%=/<%=#
+:135
+::w
+:18
+:51
+:%s/selected/checked
+:193
+:184
+:e
+:183
+: o .
+:37
+:22
+:87
+::
+:ww
+:ㅈㅣㅣ
+:o. 
+:%s/<%/<%#
+:o ..
+:45
+:kkkjjjjjjjjjj
+:%s/<%=/<%#=
+:%s/223/150
+:cs .
+:%s/
+:qr
+:colum9
+:3
+:qw
+:ewq
+:77
+:%s/vetnote/web
+:jj
+:47
+:33
+:w2
+:qs
+:u
+:367
+: o.
+:'<,'>w
+:%s/-tb/-top
+:%s/-rl/-tb
+:23
+:ㅍvs .
+:32
+:%s/studnet/student
+:%s/<%=/<%=#
+:135
+::w
+:w:q
+: vs.
+:18
+:a
+:51
+:.,.+41w
+:%s/selected/checked
+:qa!
+:193
+:q1
+:Q1
+:184
+:e
+:w index_style.js
+:183
+:ㅈㅓㅏ
+: o .
+:%s/menu/row
+:37
+:v s.
+:87
+:vs.
+:ww
+:62
+:o. 
+:98
+:o ..
+:w;
+:kkkjjjjjjjjjj
+:w syllabus_import.rb
+:70
+:74
+:kkkk
+:%s/More 4/5
+:%s/Good/4
+:%s/Normal/3
+:%2/Normal/3
+:%s/Bad/2
+:%2/Bad/2
+:%s/More Bad/1
+:vs evaluation.html.erb
+:kk
+:%s/More Good/5
+:'<,'>x
+:13
+:123
+:75
+:o style.js
+:430
+:ㅈㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ
+:471
+:hh
+:1043
+:%s/223/150
+:jjkkkkkkkkkkkk
+:cs .
+:10
+:qr
+:155
+:3
+:158
+:kkk
+:ewq
+:v
+:77
+:vs .;
+:%s/vetnote/web
+:W1
+:47
+:586
+:46
+:ㅍㄴ .
+:w2
+:157
+:qs
+:588
+:u
+:5
+: o.
+:spl
+:'<,'>w
+:vs
+:%s/-tb/-top
+:jkkkkkj
+:%s/-rl/-tb
+:12
+:ㅍvs .
+:169
+:230
+:%s/studnet/student
+:vs main.html
+:%s/f15/f12
+:vs main-foot.html
+:w:q
+: vs.
+:o ../main.html
+:a
+:vs pannel-right.html
+:.,.+41w
+:vs panel-left.html
+:qa!
+:q1
+:o main.html
+:Q1
+::qa
+:w index_style.js
+:625
+:ㅈㅓㅏ
+:705
+:%s/menu/row
+:.,.+44w
+:v s.
+:wjj:w
+:vs.
+:w:w
+:62
+:sw
+:98
+:w;
+:w syllabus_import.rb
+:%s/pushnotification(user)/pushnotification(user,pet,quest)
+:70
+:%s/동물의학과/동물과
+:74
+:kjk
+:14
+:kkkk
+:513
+:%s/More 4/5
+:512
+:503
+:%s/Good/4
+:50
+:%s/Normal/3
+:384
+:%2/Normal/3
+:338
+:%s/Bad/2
+:%s/pet.petquests/pet.pet_quests
+:%2/Bad/2
+:19
+:43
+:%s/More Bad/1
+:44
+:vs evaluation.html.erb
+:25
+:kk
+:vs ../
+:%s/More Good/5
+:%s/pet.pet_quest.where/pet.pet_quests.where
+:'<,'>x
+:when 1
+:13
+:o ../../../../
+:123
+:o ../
+:o style.js
+:o ../.././
+:430
+:vs ../../../../
+:ㅈㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ
+:ongoing
+:471
+:asdfasdf
+:hh
+:history
+:1043
+:o ../../
+:jjkkkkkkkkkkkk
+:spl ../../../
+:10
+:vs ../../
+:155
+:o ../..
+:158
+:vs ..
+:8
+:%s/medium-dpi/320
+:kkk
+:%s/device-dpi/medium-dpi
+:v
+:vs .;
+:W1
+:586
+:jkjkj
+:sp
+:ㅍㄴ .
+:o js/index.js
+:157
+:Vs ..
+:588
+:5
+:spl
+:16
+:vs
+:Wa
+:jkkkkkj
+:7
+:12
+: ../
+:169
+:vs addpet.html
+:230
+:jjjjj
+:vs main.html
+:vs layout_tappable.js
+:vs main-foot.html
+:j
+:o ../main.html
+:vs pannel-right.html
+:vs panel-left.html
+:o main.html
+::qa
+:qkjkj
+:625
+:705
+:.,.+44w
+:wjj:w
+:w:w
+:sw
+:%s/pushnotification(pet.user)/pushnotification(pet.user,pet,quest)
+:%s/pushnotification(user)/pushnotification(user,pet,quest)
+:%s/동물의학과/동물과
+:kjk
+:14
+:513
+:512
+:503
+:50
+:384
+:338
+:%s/pet.petquests/pet.pet_quests
+:19
+:43
+:44
+:25
+:vs ../
+:%s/pet.pet_quest.where/pet.pet_quests.where
+:when 1
+:o ../../../../
+:o ../
+:o ../.././
+:vs ../../../../
+:ongoing
+:asdfasdf
+:history
+:o ../../
+:spl ../../../
+:vs ../../
+:o ../..
+:vs ..
+:8
+:%s/medium-dpi/320
+:%s/device-dpi/medium-dpi
+:%s/height=device-height/height=1280
+:jkjkj
+:sp
+:o js/index.js
+:Vs ..
+:16
+:Wa
+:7
+: ../
+:vs addpet.html
+:jjjjj
+:vs layout_tappable.js
+:j
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+? 'img\/
+? ..\/img
+?/url
+?/js
+?//login
+?/login
+?/ind
+?/index
+?/root
+?/Choose and
+?/id
+?/일과시간
+?/edit_s
+?/edit_sy
+?/일과
+?/일
+?/4..
+?/box_list
+?/마
+?/마이
+?/timeta
+?/edit_sylla
+?/sche
+?/main
+?//login
+?/box_li
+?/box
+?/login
+?/f
+?/f9
+?/p9
+?/ind
+?/sylla
+?/web
+?/index
+?/w4
+?/root
+?/bright
+?/Choose and
+?/params
+?/id
+?/admin
+?/일과시간
+?/board_detail
+?/edit_s
+?/board_dtail
+?/edit_sy
+?/borad_detail
+?/일과
+?/alert
+?/일
+?/app_login
+?/4..
+? webweb
+?/box_list
+?/webweb
+?/user
+? admin
+?/test
+?/questlarge
+?/board_de
+?/edit_quest
+?/new_no
+?/edit_questsmall
+?/A
+?/end
+?/input_btn
+?/w99
+?/full
+?/timetable
+?/input
+?/593
+?/마
+?/549
+?/54
+?/594
+?/empty?
+?/마이
+?/row
+?/timeta
+?/new_notice
+?/edit_sylla
+?/edit_log
+?/sche
+?/notice
+?/main
+?/작성
+?/box_li
+?/noti
+?/내과
+?/box
+?/내과kjk
+?/f
+?/Major.fir
+?/f9
+?/find_by
+?/p9
+?/row-ti
+?/sylla
+?/web
+?/edit
+?/w4
+?/ip
+?/elip
+?/eli
+?/bright
+?/elli
+?/params
+?/el
+?/admin
+?/board_detail
+?/syl
+?/qna
+?/deit
+?/윤화영
+?/학습일지
+?/last
+?/board_dtail
+?/edit_l
+?/up
+?/borad_detail
+?/Gggkgg
+?/alert
+?/app_login
+?/loca
+? webweb
+?/href
+?/webweb
+? temp
+?/user
+? %puts
+? admin
+? %puts %=
+?/test
+? <%puts <%=
+?/questlarge
+?/script
+?/board_de
+?/hash[\:
+?/edit_quest
+?/hash[
+?/new_no
+?/hash[:
+?/hash\[\:
+?/edit_questsmall
+?/\:major
+?/A
+?/신청인원
+? restriction_hash\[@user
+? \[@user
+?/end
+?/input_btn
+? [@user/[:@user
+?/w99
+?/[@user
+?/full
+? hash[@user/hash[:@user
+?/timetable
+?/classmate_box
+?/input
+?/c
+?/593
+?/count
+?/549
+?/if
+?/54
+?/=
+?/594
+?/double
+?/empty?
+?/mastfoot
+?/row
+?/mast
+?/new_notice
+? major_6
+?/edit_log
+? major_7
+?/notice
+?/major_7
+?/작성
+?/major7
+?/noti
+?/동시
+?/내과
+?/동
+?/내과kjk
+?/Major.fir
+?/snap
+?/find_by
+?/major14
+?/row-ti
+?/regi
+?/edit
+?/order
+?/ip
+?/order_id
+?/elip
+?/regiWeek
+?/eli
+?/해마
+?/elli
+?/해마루
+?/el
+?/this_one
+?/syl
+? type
+?/qna
+?/:is_haemaru
+?/deit
+?/is_haemaru
+?/윤화영
+?/hae
+?/학습일지
+?/time
+?/last
+?/tiem
+?/edit_l
+? time
+?/up
+?/Gggkgg
+?/type
+?/버킹
+?/loca
+?/href
+?/regiWeekWithNext
+?///kkkkkkkkk
+? temp
+?/major_arr
+? %puts
+?/major_id
+? %puts %=
+?/(this)
+? <%puts <%=
+?/script
+?/(\"this"
+?/hash[\:
+?/del
+?/hash[
+?/other_order
+?/hash[:
+? 다른놈
+?/hash\[\:
+?/a
+?/\:major
+? this_id
+?/신청인원
+?/this_id
+? restriction_hash\[@user
+? \[@user
+?/regiW
+?/this
+? [@user/[:@user
+?/regiWeekWith
+?/[@user
+?/regiWeekW
+? hash[@user/hash[:@user
+?/WithN
+?/classmate_box
+?/명
+?/c
+?/delWeek
+?/count
+?/major_array
+?/if
+?/ajax
+?/=
+?/aja
+?/double
+?/display
+?/mastfoot
+?/mast
+?/confirm
+?/this_name
+?/none
+? major_7
+?/redirect_
+?/major_7
+?/jjjjjjjjjjjjjj
+?/major7
+?/no
+?/동시
+?/Major.first
+?/동
+?/stud
+?/comment
+?/crea
+?/upda
+?/student_comment_detail
+?/page_wrap
+?/snap
+?/body
+?/major14
+?/image
+?/regi
+?/ck
+?/order
+?/Ma
+?/order_id
+?/img
+?/regiWeek
+?/submit
+?/해마
+?/l
+?/해마루
+?/pass
+?/this_one
+?/form
+? type
+?/log_list
+?/:is_haemaru
+?/new_text_box_top_txt
+?/true
+?/new_text_box_txt
+?/is_haemaru
+?/hidden
+?/hae
+?/pages
+?/time
+?/sign
+?/tiem
+?/token
+? time
+?/redirect
+?/type
+?/버킹
+?/redire
+?/retirect
+?/regiWeekWithNext
+?///kkkkkkkkk
+?/render
+?/hkkj
+?/major_arr
+?/report_text
+?/major_id
+?/(this)
+?/report
+?/(\"this"
+?/list
+?/del
+?/qnalist
+?/other_order
+?/qna_list
+? 다른놈
+?/with_in
+?/a
+?/evalu
+? this_id
+?/daily
+?/this_id
+?/daily_l
+?/regiW
+?/eval
+?/this
+?/daily_log
+?/regiWeekWith
+?/log_date
+?/regiWeekW
+?/record
+?/WithN
+?/in
+?/명
+?/75
+?/delWeek
+?/userquest
+?/logbook
+?/major_array
+?/ajax
+?/comment_date
+?/aja
+?/submit_comment
+?/display
+?/confirm
+?/daily_comment
+?/this_name
+?/in_time_
+?/none
+?/create
+?/QN
+?/jjjjjjjjjjjjjj
+?/nn
+?/no
+?/q
+?/Major.first
+?/u
+?/stud
+?/uq
+?/comment
+?/record_case
+?/valid
+?/vild
+?/upda
+?/student_comment_detail
+?/10
+?/[m]
+?/page_wrap
+?/m
+?/body
+?/Notice
+?/image
+?/major
+?/ck
+?/Ma
+?/majog
+?/img
+?/:q
+?/submit
+?/vaild
+?/9
+?/l
+?/User
+?/pass
+?/student_list
+?/form
+? <%=item
+?/log_list
+? %>
+?/new_text_box_top_txt
+? <%=
+?/new_text_box_txt
+? =item
+?/middle
+?/hidden
+?/학습
+?/ gkrtmq
+? 학습일지
+?/pages
+?/%s/학습일지/실습일지
+?/sign
+?/daily_co
+?/token
+?/balid
+?/redirect
+?/large
+?/redire
+?/Time
+?/retirect
+?/read_u
+?/render
+?/readu_ui
+?/hkkj
+?/ㅅTime
+?/report_text
+?/Comment
+?/report
+?/실습일지
+?/list
+?/\.name
+?/qnalist
+?/name
+?/qna_list
+?/selected
+?/with_in
+?/설수
+?/evalu
+?/usder
+?/daily
+?/e
+?/daily_l
+?/evaluation
+?/eval
+?/eva
+?/게시판
+?/daily_log
+?/게시판 뷰
+?/log_date
+?/created_at
+?/record
+?/rt-temp
+?/in
+?/학습일지 확인
+?/75
+?/학생 코멘트
+?/userquest
+?/홍길동
+?/logbook
+?/writer
+?/comment_date
+?/created
+?/submit_comment
+? 실습일지
+?/daily_comment
+?/코멘
+?/in_time_
+?/코멘트
+?/create
+?/student_com
+?/QN
+?/background-img
+?/nn
+?/로그북
+?/q
+?/picture
+?/u
+?/studnet_
+?/uq
+?/tes
+?/record_case
+?/느낀
+?/valid
+?/케이스메모
+?/vild
+?/padding
+?/10
+?/background
+?/[m]
+?/comment-la
+?/m
+?/comment_la
+?/Notice
+?/성찰일지
+?/major
+?/majog
+?/size
+?/:q
+?/font-size
+?/vaild
+?/9
+?/calender_box
+?/User
+?/30
+?/outer
+?/student_list
+? <%=item
+?/read_user
+? %>
+?/daily_cp
+? <%=
+?/daily_o
+? =item
+?/else
+?/middle
+?/학습
+?/submit_com
+?/ gkrtmq
+?/logpicture
+? 학습일지
+?/log_picture_url
+?/%s/학습일지/실습일지
+?/largequest\.name
+?/daily_co
+?/r
+?/balid
+?/log_list-middle
+?/large
+?/Time
+?/log_list-middle-rt
+?/read_u
+?/log
+?/readu_ui
+?/취소
+?/ㅅTime
+?/created_
+?/Comment
+?/확인
+?/실습일지
+?/today
+?/\.name
+?/Today
+?/name
+?/Tiem
+?/selected
+?/now
+?/설수
+?/save
+?/usder
+?/menu
+?/Menu
+?/480
+?/e
+?/statics
+?/evaluation
+?/\.\.
+?/eva
+?/..
+?/게시판
+?/each_student-lt
+?/게시판 뷰
+?/each_student_box
+?/created_at
+?/each_stu
+?/rt-temp
+?/select_l
+?/학습일지 확인
+?/select
+?/학생 코멘트
+?/홍길동
+?/statis
+?/writer
+?/전공명
+?/created
+? web
+? 실습일지
+?/logs
+?/코멘
+?/sta
+?/코멘트
+?/stataic
+?/student_com
+?/each_with_inde
+?/background-img
+?/Last
+?/로그북
+?/윤화
+?/picture
+?/add_log
+?/studnet_
+?/each_student
+?/tes
+?/spl .
+?/느낀
+?/edit_lo
+?/케이스메모
+?/공지
+?/padding
+?/등록
+?/background
+?/윤
+?/notie
+?/comment-la
+?/board
+?/comment_la
+?/detail_b
+?/P
+?/size
+?/댓글
+?/font-size
+?/detail
+?/calender_box
+?/30
+?/clear
+?/outer
+?/comment_btn
+?/read_user
+?/pu
+?/daily_cp
+?/수정
+?/daily_o
+?/comment_textarea
+? <%
+?/else
+?/mar
+?/submit_com
+?/h
+?/logpicture
+?/delete
+?/log_picture_url
+?/comment_box
+?/largequest\.name
+?/modify_bu
+?/r
+?/button
+?/log_list-middle
+?/log_list-middle-rt
+?/log
+?/취소
+?/colum9
+?/created_
+?/테이블
+?/확인
+?/addTable
+?/today
+?/colum4
+?/Today
+?/daytable
+?/Tiem
+?/colum1
+?/now
+?/colum
+?/save
+?/colum5
+?/menu
+?/Menu
+?/id="time
+?/480
+?/id\=\"timata
+?/statics
+?/id=\"timata
+?/\.\.
+?/timatable
+?/..
+?/dayta
+?/each_student-lt
+?/테이블추가
+?/each_student_box
+?/gray
+?/each_stu
+?/to_json
+?/select_l
+?/select
+?/hmin100
+?/textarea
+?/statis
+?/h100
+?/전공명
+?/\.h
+? web
+?/.h
+?/logs
+?/w593
+?/sta
+?/요일
+?/stataic
+?/개설
+?/gcm
+?/schedules
+?/each_with_inde
+?/log_li
+?/Last
+?/s
+?/윤화
+?/user_name
+?/add_log
+? \<li\>
+?/each_student
+?/content
+?/spl .
+??mon
+?/edit_lo
+?/Pro
+?/공지
+?/Proxy
+?/등록
+?/Ping
+?/윤
+?/qna.answer
+?/notie
+?/answerer
+?/board
+?/answer
+?/detail_b
+?/ans
+?/P
+?/an
+?/댓글
+?/comment_detail
+?/detail
+?/qna_de
+?/clear
+?/stu
+?/comment_btn
+?/we
+?/pu
+?/co
+?/수정
+? selected
+?/comment_textarea
+?/%s/selected/checked
+? <%
+?/@mark
+?/mar
+?/mark
+?/h
+?/rytn
+?/delete
+?/i
+?/comment_box
+?/level
+?/modify_bu
+?/sy
+?/button
+?/wall
+?/colum9
+?/hall
+?/테이블
+?/alr
+?/addTable
+?/근무시간
+?/w100
+?/colum4
+?/h12
+?/daytable
+?/h25
+?/colum1
+?/h24
+?/colum
+?/w
+?/colum5
+?/ble
+?/id="time
+?/b
+?/id\=\"timata
+?/gray3
+?/id=\"timata
+?/w150
+?/timatable
+?/left
+?/.left
+?/dayta
+?/테이블추가
+?/row-top
+?/h50
+?/gray
+?/to_json
+? 223
+?/hmin100
+?/f9fafa
+?/textarea
+?/marking
+?/h100
+?/orm
+?/\.h
+?/@stu
+?/.h
+?/---
+?/w593
+?/0---
+?/요일
+?/여기
+?/개설
+?/X
+?/gcm
+?/qna_reply_process
+?/schedules
+?/덧글
+?/log_li
+?/bottom2
+?/s
+?/row-check
+?/user_name
+? \<li\>
+?/log_list-row
+?/content
+?/row-name
+??mon
+?/row_it
+?/Pro
+?/row_ti
+?/Proxy
+?/row-it
+?/Ping
+?/row-itm
+?/qna.answer
+?/-lt
+?/answerer
+?/-lr
+?/answer
+?/SHA
+?/ans
+?/log_co
+?/an
+?/student_list-middle
+?/comment_detail
+?/qna_de
+?/log_con
+?/stu
+?/log_can
+?/asdf,mncxv,mzn
+?/we
+?/asdf
+?/repor
+?/co
+?/코멘트을
+? selected
+?/row-title
+?/%s/selected/checked
+?/hover
+?/@mark
+?/div.
+?/mark
+?/student
+?/rytn
+?/redir
+?/i
+?/flas
+?/level
+?/홍길
+?/sy
+?/top-center-logo
+?/wall
+?/de
+?/hall
+?/bo
+?/alr
+?/평가
+?/근무시간
+?/ma
+?/w100
+?/h12
+? vetnote
+?/h25
+?/vet
+?/h24
+?/vetnote
+?/w
+?/ble
+?/reque
+?/b
+?/consi
+?/gray3
+?/con
+?/w150
+?/6a6866
+?/left
+?/b1b0ac
+?/.left
+?/b8b7b4
+?/row-top
+? \<height\>
+?/h50
+?/p
+? 223
+?/1000
+?/f9fafa
+?/로그북 확
+?/수강
+?/marking
+? :
+?/orm
+?/@stu
+?/page-middle
+?/---
+?/row-numb
+?/0---
+?/rog_list-
+?/여기
+?/log_list-bottom
+?/X
+?/log_list-top
+?/qna_reply_process
+?/log_list-r
+?/덧글
+?/border
+?/bottom2
+?/rt-top
+?/row-check
+? -tb
+?/log_list-row
+? -rl
+?/row-name
+?/Gk
+?/row_menu
+?/row_it
+?/row_top
+?/row_ti
+?/row-it
+?/title
+?/row-itm
+?/top-center
+?/-lt
+?/bottom
+?/-lr
+?/SHA
+??top
+? studnet
+? f15
+?/student_list-middle
+?/log_con
+?/border:1px
+?/log_can
+?/top-center-menubox
+?/asdf,mncxv,mzn
+?/asdf
+?/li
+?/ul
+?/repor
+?/코멘트을
+?/bor
+?/row-title
+?/major_info
+?/hover
+?/major_info_lt
+?/div.
+?/background-size
+?/student
+?/ba
+?/redir
+?/top
+?/flas
+?/middle-box-login-te
+?/홍길
+?/background-i
+?/top-center-logo
+?/t
+?/de
+?/middle-box-icon
+?/bo
+?/168
+?/평가
+?/Mag
+?/ma
+?/detail_notice_title
+?/row_item
+?/back
+? vetnote
+?/page_top
+?/vet
+?/page_body
+?/vetnote
+??url
+?/reque
+?/wrap
+?/consi
+?/css
+?/con
+?/head
+?/6a6866
+?/fix
+?/b1b0ac
+?/recorded
+?/b8b7b4
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+""0	LINE	0
+	<!-- 검색 기능을 표시할 <div>를 생성한다 -->
+	<div id="postcodify"></div>
+	
+	<!-- jQuery와 Postcodify를 로딩한다 -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://cdn.poesis.kr/post/search.min.js"></script>
+	<link href="http://cdn.poesis.kr/post/search.css" rel="stylesheet" media="all" />
+	
+	<!-- 위에서 생성한 <div>에 검색 기능을 표시하고, 결과를 입력할 <input>들과 연동한다 -->
+	<script>
+	    $(function() { $("#postcodify").postcodify({
+	        insertPostcode6 : "#postcode6",
+	        insertJibeonAddress : "#address",
+	        insertDetails : "#details",
+	        insertExtraInfo : "#extra_info",
+	        useAlert: "true"
+	
+	    }); });
+	</script>
+"1@	LINE	0
+	<!-- jQuery와 Postcodify를 로딩한다 -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://cdn.poesis.kr/post/search.min.js"></script>
+	<link href="http://cdn.poesis.kr/post/search.css" rel="stylesheet" media="all" />
+	
+	<!-- 위에서 생성한 <div>에 검색 기능을 표시하고, 결과를 입력할 <input>들과 연동한다 -->
+	<script>
+	    $(function() { $("#postcodify").postcodify({
+	        insertPostcode6 : "#postcode6",
+	        insertJibeonAddress : "#address",
+	        insertDetails : "#details",
+	        insertExtraInfo : "#extra_info",
+	        useAlert: "true"
+	
+	    }); });
+	</script>
+	
+"2	LINE	0
+	<input type="text" name="" id="postcode5" value="" /><br />
+"3	LINE	0
+	<input type="text" name="" id="extra_info" value="" /><br />
+"4	LINE	0
+	puts first_table.rows[5].cells[0].text
+"5	LINE	0
+	puts k
+"6	LINE	0
+	elsif 
+"7	LINE	0
+	pr
+"8	LINE	0
+	
+"9	LINE	0
+	end
+"i	CHAR	0
+	//i//khi//"kjk
+"j	CHAR	0
+	714
+<jkhhhhhhhhhhhhhhhhhhhhhhhjhh@1ujkjujhhhhhhhhhhhhhhhhhhhhhhhhhhhhlllllhhvllllllllllllllllllllhxllllllllllllxi width llxlhi lllxxx:wjhhhhhhhhhhhhhhhhhhhhhhhhvlllllllllllllllllllllhhhlhxlllllllllllli width/2 -=xxxxi lllxxhx:wjhhhhhhhhhhhhhhhhhhhhhhhhhhllllllhhhhhhhhhhhvllllllllllllllllllxx:wlllllllllllli width -�kbxlxhiuuuxuhxlxllxxx:wjhhhhhhhhhhhhhhhhhhvllllllllllllllllllllhxlllllllllllllllhhiwidth lxlxllxxx:wjhhhhhhhkki lli jllli :wjhhhhhhhhlllvhhhhhhhhhhhhhhhhhhhxllllllllllllllhi width lxlxllxxxhhi :wjhhhhhhhhhhhhhvlllllllllllllllllllxllllllllllllli width -lxxxllxxxxhhi llli):wjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhvlllllllllllllllllllxlllllllllllli width lxlxllllxhxhxh:wjhhhhhhhh
+"k	CHAR	0
+	
+"n	CHAR	0
+	442
+<lhiqnalx:wjkllllllllllllkkkkkkkkkkkkkkkkkkkkkkkkkkkjkjkjjhhhhhhhhhllvlllllllllllllllllllllllllllllllllllllllllllllllyjjjjjjjjjjjjjjjjjjjjjkkkkkjjjjjjjjkkkAselectedQnaId = pkVxjdd:wjkjjjjjjkkkllllllllllllllllllllllllllllllllhvlllllllllllllllllllllllllllllllllllllllllllllllllllllhhxlhi �kbli �kb�kbllli �kbselectedQnaId:wjkjlllllllllllllllllllcwselectedQnaId:wjkVx:wjjjjjjjjjjkjjjjjjjjjj:w:w:w:w:w:w:w:w:w:wa:wa
+"p	CHAR	0
+	hplcwjjjhhhhhhh
+"r	CHAR	0
+	
+	      #  cmd history
+	      1  j
+	      2  vs layout_tappable.js
+	      3  jjjjj
+	      4  vs addpet.html
+	      5   ../
+	      6  7
+	      7  Wa
+	      8  16
+	      9  15
+	     10  Vs ..
+	     11  o js/index.js
+	     12  sp
+	     13  jkjkj
+	     14  %s/height=device-height/height=1280
+	     15  %s/device-dpi/medium-dpi
+	     16  %s/medium-dpi/320
+	     17  8
+	     18  vs ..
+	     19  o ../..
+	     20  vs ../../
+	     21  spl ../../../
+	     22  o ../../
+	     23  history
+	     24  asdfasdf
+	     25  ongoing
+	     26  vs ../../../../
+	     27  o ../.././
+	     28  o ../
+	     29  o ../../../../
+	     30  when 1
+	     31  %s/pet.pet_quest.where/pet.pet_quests.where
+	     32  vs ../
+	     33  25
+	     34  44
+	     35  43
+	     36  19
+	     37  %s/pet.petquests/pet.pet_quests
+	     38  338
+	     39  384
+	     40  50
+	     41  503
+	     42  512
+	     43  513
+	     44  14
+	     45  vs test.html
+	     46  kjk
+	     47  %s/동물의학과/동물과
+	     48  %s/pushnotification(user)/pushnotification(user,pet,quest)
+"w	CHAR	0
+	529
+<heflkjhfalskdjfhasdlkfuuuuuuuu:wn/se�kb�kbsyllabuskjjk/selectSyllabus()jki//ddkkjkVhhhhhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjxkggjjjjjjjjjjjjjjjjjjApjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjllkllllllllllllhlllllxxxxxxxxiselectSyllabus:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkhhhhklhhhhhhhvhhhhhhhhlxiselectLogbook:w:waggkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkljllllllllllllllllllllllllllllllllllllln:qkj:qkkj
+"-	CHAR	0
+	:
+
+# 파일 마크:
+'0  32  0  ~/.gitignore
+'1  23  8  ~/vet_practice/public/kumdobu/index.html
+'2  110  12  ~/vet_practice/public/kumdobu/index.html
+'3  613  4  ~/vet_practice/public/kumdobu/css/index.css
+'4  220  8  ~/vet_practice/public/kumdobu/index.html
+'5  1  0  ~/vet_practice/public/test.html
+'6  26  0  ~/vet_practice/public/test.html
+'7  9  0  ~/vet_practice/.gitignore
+'8  35  0  ~/docx/docx.rb
+'9  22  6  ~/docx/docx.rb
+
+# 점프목록 (새것이 먼저):
+-'  32  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  23  8  ~/vet_practice/public/kumdobu/index.html
+-'  110  12  ~/vet_practice/public/kumdobu/index.html
+-'  83  16  ~/vet_practice/public/kumdobu/index.html
+-'  307  0  ~/vet_practice/public/kumdobu/index.html
+-'  223  3  ~/vet_practice/public/kumdobu/index.html
+-'  220  8  ~/vet_practice/public/kumdobu/index.html
+-'  613  4  ~/vet_practice/public/kumdobu/css/index.css
+-'  533  18  ~/vet_practice/public/kumdobu/css/index.css
+-'  492  18  ~/vet_practice/public/kumdobu/css/index.css
+-'  451  18  ~/vet_practice/public/kumdobu/css/index.css
+-'  327  18  ~/vet_practice/public/kumdobu/css/index.css
+-'  209  19  ~/vet_practice/public/kumdobu/css/index.css
+-'  203  19  ~/vet_practice/public/kumdobu/css/index.css
+-'  197  19  ~/vet_practice/public/kumdobu/css/index.css
+-'  191  19  ~/vet_practice/public/kumdobu/css/index.css
+-'  184  21  ~/vet_practice/public/kumdobu/css/index.css
+-'  166  21  ~/vet_practice/public/kumdobu/css/index.css
+-'  145  21  ~/vet_practice/public/kumdobu/css/index.css
+-'  125  21  ~/vet_practice/public/kumdobu/css/index.css
+-'  104  21  ~/vet_practice/public/kumdobu/css/index.css
+-'  83  21  ~/vet_practice/public/kumdobu/css/index.css
+-'  62  21  ~/vet_practice/public/kumdobu/css/index.css
+-'  43  36  ~/vet_practice/public/kumdobu/css/index.css
+-'  3  0  ~/vet_practice/public/kumdobu/css/index.css
+-'  1  0  ~/vet_practice/public/kumdobu/css/index.css
+-'  222  46  ~/vet_practice/public/kumdobu/index.html
+-'  52  34  ~/vet_practice/public/kumdobu/index.html
+-'  1  0  ~/vet_practice/public/kumdobu/index.html
+-'  1  0  ~/vet_practice/public/test.html
+-'  26  0  ~/vet_practice/public/test.html
+-'  9  0  ~/vet_practice/.gitignore
+-'  1  0  ~/vet_practice/.gitignore
+-'  35  0  ~/docx/docx.rb
+-'  2  0  ~/docx/docx.rb
+-'  21  0  ~/docx/docx.rb
+-'  22  6  ~/docx/docx.rb
+-'  30  99  ~/docx/docx.rb
+-'  25  0  ~/docx/docx.rb
+-'  36  2  ~/docx/docx.rb
+-'  13  5  ~/docx/docx.rb
+-'  3  33  ~/docx/docx.rb
+-'  1  0  ~/docx/docx.rb
+-'  3  44  ~/docx/Gemfile
+-'  46  0  ~/docx/Gemfile
+-'  45  0  ~/docx/Gemfile
+-'  1  0  ~/docx/Gemfile
+-'  19  1  ~/NERD_tree_1
+-'  1  2  ~/NERD_tree_1
+-'  14  46  ~/vetnote_server/app/controllers/application_controller.rb
+-'  1  0  ~/vetnote_server/app/controllers/application_controller.rb
+-'  1  30  ~/vetnote_server/public/js_client/page_login.js
+-'  14  0  ~/vetnote_server/public/NERD_tree_1
+-'  1  0  ~/vetnote_server/public/NERD_tree_1
+-'  18  2  ~/vetnote_server/public/NERD_tree_1
+-'  1  12  ~/vetnote_server/public/js_client/index.js
+-'  22  0  ~/vetnote_server/public/NERD_tree_1
+-'  35  2  ~/vetnote_server/public/NERD_tree_1
+-'  1  34  ~/vetnote_server/public/js_client/pages.js
+-'  49  0  ~/vetnote_server/public/NERD_tree_1
+-'  52  2  ~/vetnote_server/public/NERD_tree_1
+-'  8  0  ~/vetnote_server/app/controllers/vetnoteuser_controller.rb
+-'  38  0  ~/vetnote_server/app/controllers/vetnoteuser_controller.rb
+-'  1  0  ~/vetnote_server/app/controllers/vetnoteuser_controller.rb
+-'  15  0  ~/vetnote_server/public/app.html
+-'  14  0  ~/vetnote_server/public/NERD_tree_1
+-'  1  0  ~/vetnote_server/public/NERD_tree_1
+-'  18  2  ~/vetnote_server/public/NERD_tree_1
+-'  1  12  ~/vetnote_server/public/js_client/index.js
+-'  22  0  ~/vetnote_server/public/NERD_tree_1
+-'  35  2  ~/vetnote_server/public/NERD_tree_1
+-'  1  34  ~/vetnote_server/public/js_client/pages.js
+-'  49  0  ~/vetnote_server/public/NERD_tree_1
+-'  52  2  ~/vetnote_server/public/NERD_tree_1
+-'  8  0  ~/vetnote_server/app/controllers/vetnoteuser_controller.rb
+-'  38  0  ~/vetnote_server/app/controllers/vetnoteuser_controller.rb
+-'  1  0  ~/vetnote_server/app/controllers/vetnoteuser_controller.rb
+-'  15  0  ~/vetnote_server/public/app.html
+-'  14  0  ~/vetnote_server/public/NERD_tree_1
+-'  1  0  ~/vetnote_server/public/NERD_tree_1
+-'  18  2  ~/vetnote_server/public/NERD_tree_1
+-'  1  12  ~/vetnote_server/public/js_client/index.js
+-'  22  0  ~/vetnote_server/public/NERD_tree_1
+-'  35  2  ~/vetnote_server/public/NERD_tree_1
+-'  1  34  ~/vetnote_server/public/js_client/pages.js
+-'  49  0  ~/vetnote_server/public/NERD_tree_1
+-'  52  2  ~/vetnote_server/public/NERD_tree_1
+-'  8  0  ~/vetnote_server/app/controllers/vetnoteuser_controller.rb
+-'  38  0  ~/vetnote_server/app/controllers/vetnoteuser_controller.rb
+-'  23  8  ~/vet_practice/public/kumdobu/index.html
+-'  110  12  ~/vet_practice/public/kumdobu/index.html
+-'  83  16  ~/vet_practice/public/kumdobu/index.html
+-'  307  0  ~/vet_practice/public/kumdobu/index.html
+-'  223  3  ~/vet_practice/public/kumdobu/index.html
+-'  220  8  ~/vet_practice/public/kumdobu/index.html
+-'  613  4  ~/vet_practice/public/kumdobu/css/index.css
+-'  533  18  ~/vet_practice/public/kumdobu/css/index.css
+-'  492  18  ~/vet_practice/public/kumdobu/css/index.css
+-'  451  18  ~/vet_practice/public/kumdobu/css/index.css
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/.gitignore
+	"	32	0
+
+> ~/vet_practice/public/kumdobu/index.html
+	"	23	8
+	^	223	25
+	.	64	0
+	+	1	37
+	+	222	24
+	+	223	25
+	+	64	0
+
+> ~/vet_practice/public/kumdobu/css/index.css
+	"	613	4
+	.	43	0
+	+	43	0
+
+> ~/vet_practice/public/test.html
+	"	1	0
+	.	1	0
+	+	1	57
+	+	1	27
+	+	1	108
+	+	1	59
+	+	1	59
+	+	1	57
+	+	1	57
+	+	1	60
+	+	1	45
+	+	1	83
+	+	1	63
+	+	1	81
+	+	1	115
+	+	1	8
+	+	1	48
+	+	1	49
+	+	1	57
+	+	1	61
+	+	1	69
+	+	1	82
+	+	1	57
+	+	26	9
+	+	25	0
+	+	23	0
+	+	26	0
+	+	4	0
+	+	1	57
+	+	1	0
+
+> ~/vet_practice/.gitignore
+	"	9	0
+	^	11	1
+	.	11	0
+	+	11	0
+
+> ~/docx/docx.rb
+	"	35	0
+	^	22	7
+	.	22	6
+	+	3	33
+	+	36	0
+	+	6	27
+	+	8	15
+	+	6	15
+	+	8	31
+	+	7	18
+	+	1	12
+	+	8	38
+	+	9	0
+	+	10	13
+	+	11	38
+	+	12	0
+	+	13	10
+	+	14	31
+	+	36	0
+	+	36	0
+	+	16	9
+	+	17	55
+	+	18	0
+	+	17	48
+	+	18	10
+	+	23	5
+	+	19	0
+	+	23	0
+	+	19	66
+	+	17	60
+	+	20	9
+	+	24	0
+	+	36	0
+	+	26	10
+	+	27	38
+	+	29	22
+	+	36	6
+	+	30	0
+	+	36	0
+	+	30	31
+	+	29	23
+	+	30	107
+	+	30	66
+	+	36	0
+	+	30	131
+	+	30	0
+	+	30	0
+	+	30	153
+	+	31	0
+	+	32	0
+	+	34	15
+	+	35	85
+	+	21	4
+	+	22	6
+
+> ~/docx/Gemfile
+	"	3	44
+	^	3	45
+	.	3	44
+	+	46	0
+	+	2	18
+	+	3	44
+
+> ~/NERD_tree_1
+	"	19	1
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_server/app/controllers/application_controller.rb
+	"	14	46
+
+> ~/vetnote_server/public/NERD_tree_1
+	"	14	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_server/public/js_client/page_login.js
+	"	1	30
+	^	1	31
+	.	1	30
+	+	1	30
+
+> ~/vetnote_server/public/js_client/index.js
+	"	1	12
+
+> ~/vetnote_server/public/js_client/pages.js
+	"	1	34
+	^	1	35
+	.	1	34
+	+	1	34
+
+> ~/vetnote_server/app/controllers/vetnoteuser_controller.rb
+	"	8	0
+
+> ~/vetnote_server/public/app.html
+	"	15	0
+
+> ~/vetnote_server/public/index.html
+	"	17	0
+
+> ~/vetnote_server/production_reset_db.rb
+	"	3	14
+	.	3	14
+	+	1	14
+	+	2	17
+	+	3	14
+
+> ~/vetnote2/app/controllers/user_controller.rb
+	"	1	1
+
+> ~/test_vetnote/vetnote_server/db/migrate/20150112174016_create_marks.rb
+	"	16	25
+	^	16	26
+	.	16	25
+	+	6	7
+	+	4	20
+	+	6	21
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	7	22
+	+	8	21
+	+	9	21
+	+	10	21
+	+	11	22
+	+	12	21
+	+	13	21
+	+	14	21
+	+	13	21
+	+	14	21
+	+	15	22
+	+	16	25
+
+> ~/test_vetnote/vetnote_server/db/migrate/NERD_tree_1
+	"	18	0
+	.	1	0
+	+	1	0
+
+> ~/test_vetnote/vetnote_server/db/migrate/20150112173627_user.rb
+	"	1	0
+
+> ~/test_vetnote/vetnote_server/db/NERD_tree_1
+	"	5	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/test_vetnote/vetnote_server/db/migrate/20140519194524_create_users.rb
+	"	15	32
+	^	15	33
+	.	15	32
+	+	16	0
+	+	14	18
+	+	15	32
+
+> ~/vetnote2/app/controllers/web_controller.rb
+	"	6	23
+	^	6	24
+	.	6	24
+	+	323	65
+	+	4	0
+	+	7	0
+	+	7	0
+	+	5	42
+	+	6	24
+
+> ~/vetnote2/app/controllers/application_controller.rb
+	"	18	17
+	.	6	0
+	+	5	0
+	+	4	0
+	+	6	0
+
+> ~/vetnote2/app/views/layouts/application.html.erb
+	"	1	0
+
+> ~/vetnote2/app/views/web/index.html.erb.tmp
+	"	1	0
+
+> ~/vetnote2/app/views/web/ho
+	"	1	0
+
+> ~/vetnote2/app/assets/javascripts/application.js
+	"	51	0
+
+> ~/vetnote2/config/routes.rb
+	"	51	47
+	^	51	48
+	.	51	48
+	+	52	0
+	+	58	0
+	+	56	1
+	+	58	0
+	+	56	0
+	+	52	0
+	+	51	48
+
+> ~/vetnote2/public/NERD_tree_1
+	"	6	2
+	.	1	0
+	+	1	0
+
+> ~/vetnote2/public/js/index.js
+	"	2	0
+
+> ~/vetnote2/config/environments/development.rb
+	"	19	0
+
+> ~/vetnote2/config/environment.rb
+	"	5	0
+
+> ~/vetnote2/config/environment
+	"	1	0
+
+> ~/vetnote2/app/controllers/NERD_tree_1
+	"	7	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote2/app/views/web/index.html.erb
+	"	1	0
+
+> ~/vetnote2/app/views/web/NERD_tree_1
+	"	15	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote2/config/application.rb
+	"	33	41
+
+> ~/vetnote2/config/boot.rb
+	"	6	0
+
+> ~/vetnote2/config.ru
+	"	4	0
+
+> ~/vetnote2/public/index.html
+	"	80	0
+
+> ~/vetnote2/tmp/pids/server.pid
+	"	1	0
+
+> ~/vetnote2/config/ri
+	"	1	0
+
+> ~/test_vetnote/vetnote_server/app/controllers/vetnote_controller.rb
+	"	37	12
+
+> ~/test_vetnote/vetnote_server/production_reset_db.rb
+	"	1	0
+
+> ~/test_vetnote/vetnote_server/student.rb
+	"	42	8
+	^	42	11
+	.	42	8
+	+	42	8
+
+> ~/test_vetnote/vetnote_server/config/database.yml
+	"	23	16
+	^	25	17
+	.	25	16
+	+	24	17
+	+	25	16
+
+> ~/vetnote_app/db/seeds.rb
+	"	242	17
+
+> ~/vetnote_app/db/seeds.rb.old
+	"	9	0
+
+> ~/vetnote_app/NERD_tree_1
+	"	19	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vet_practice/app/controllers/home_controller.rb
+	"	229	0
+
+> ~/vetnote_app/NERD_tree_2
+	"	21	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vet_practice/db/seeds.rb
+	"	5	0
+
+> ~/vetnote_app/NERD_tree_3
+	"	27	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vet_practice/app/views/home/timeschedule.html.erb
+	"	17	0
+
+> ~/vet_practice/export_schedule.rb
+	"	4	28
+	^	4	35
+	.	4	13
+	+	9	0
+	+	4	0
+	+	3	0
+	+	7	15
+	+	9	9
+	+	1	12
+	+	9	0
+	+	10	0
+	+	5	27
+	+	5	298
+	+	10	13
+	+	12	38
+	+	13	11
+	+	4	13
+
+> ~/vet_practice/export_schedule
+	"	1	0
+
+> ~/vet_practice/export_result
+	"	1	0
+
+> ~/vet_practice/export_schedule_result.txt
+	"	42631	0
+
+> ~/vet_practice/export_schedule_
+	"	1	0
+
+> ~/vetnote2/app/views/test/index.html.erb
+	"	2	0
+
+> ~/vetnote_app/old_db.rb
+	"	406	1
+
+> ~/vetnote_app/Gemfile
+	"	6	14
+	^	6	15
+	.	6	15
+	+	6	15
+
+> ~/vetnote_app/config/database.yml
+	"	21	0
+	.	21	0
+	+	21	0
+
+> ~/vetnote_app/app/views/NERD_tree_1
+	"	14	2
+	.	1	0
+	+	1	0
+
+> ~/vetnote_app/app/views/webadmin/edit_syllabus.html.erb
+	"	129	25
+	^	320	42
+	.	320	39
+	+	10	38
+	+	141	75
+	+	153	75
+	+	177	86
+	+	73	124
+	+	320	39
+	+	129	83
+	+	132	76
+	+	165	0
+	+	189	0
+	+	129	84
+	+	132	77
+	+	320	39
+
+> ~/vetnote_app/app/controllers/webadmin_controller.rb
+	"	305	20
+	^	323	132
+	.	323	131
+	+	2	8
+	+	277	34
+	+	264	34
+	+	256	34
+	+	348	34
+	+	364	34
+	+	375	34
+	+	382	34
+	+	396	34
+	+	437	34
+	+	105	36
+	+	107	36
+	+	118	34
+	+	127	36
+	+	129	36
+	+	140	34
+	+	185	34
+	+	212	34
+	+	233	34
+	+	335	21
+	+	336	0
+	+	336	0
+	+	335	0
+	+	336	7
+	+	347	4
+	+	336	6
+	+	336	0
+	+	335	36
+	+	336	0
+	+	335	40
+	+	348	81
+	+	323	177
+	+	297	0
+	+	298	6
+	+	323	136
+	+	323	131
+
+> ~/vetnote_app/app/views/web/edit_syllabus.html.erb
+	"	321	0
+	^	314	42
+	.	314	39
+	+	72	124
+	+	162	0
+	+	140	106
+	+	152	75
+	+	132	0
+	+	128	93
+	+	171	99
+	+	152	92
+	+	171	103
+	+	140	105
+	+	140	0
+	+	314	39
+	+	183	0
+	+	128	84
+	+	131	77
+	+	128	84
+	+	314	39
+
+> ~/vetnote_app/app/views/webadmin/NERD_tree_2
+	"	19	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/app/views/webadmin/NERD_tree_3
+	"	14	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/app/controllers/web_controller.rb
+	"	309	6
+	^	334	136
+	.	334	136
+	+	239	0
+	+	238	0
+	+	239	57
+	+	399	0
+	+	402	20
+	+	403	8
+	+	405	6
+	+	404	0
+	+	402	19
+	+	10	0
+	+	14	37
+	+	15	35
+	+	10	0
+	+	9	0
+	+	13	37
+	+	14	36
+	+	15	46
+	+	33	37
+	+	34	30
+	+	35	41
+	+	92	0
+	+	35	0
+	+	22	0
+	+	88	0
+	+	92	29
+	+	100	29
+	+	171	35
+	+	170	0
+	+	405	42
+	+	34	37
+	+	35	48
+	+	9	0
+	+	22	0
+	+	23	58
+	+	24	15
+	+	488	4
+	+	476	28
+	+	472	20
+	+	474	5
+	+	470	0
+	+	486	3
+	+	477	23
+	+	480	33
+	+	483	6
+	+	481	24
+	+	479	39
+	+	481	30
+	+	482	16
+	+	484	36
+	+	485	10
+	+	487	28
+	+	499	0
+	+	498	4
+	+	490	46
+	+	495	0
+	+	491	22
+	+	492	38
+	+	493	14
+	+	495	5
+	+	494	64
+	+	495	0
+	+	498	3
+	+	497	0
+	+	496	45
+	+	308	0
+	+	309	6
+	+	334	0
+	+	335	0
+	+	334	136
+
+> ~/vetnote_app/app/controllers/web
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/vetnote_app/app/controlle
+	"	1	0
+
+> ~/vetnote2/app/views/web/edit_syllabus.html.erb
+	"	329	39
+	^	329	40
+	.	329	39
+	+	329	39
+
+> ~/vetnote2/NERD_tree_1
+	"	15	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/app/views/webadmin/NERD_tree_1
+	"	14	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/app/views/web/NERD_tree_1
+	"	13	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/app/views/web/syllabus.html.erb
+	"	104	29
+	^	97	27
+	.	97	27
+	+	12	34
+	+	11	0
+	+	12	0
+	+	26	30
+	+	27	20
+	+	1	0
+	+	68	20
+	+	98	28
+	+	97	27
+
+> ~/vetnote_app/app/controllers/vetnoteuser_controller.rb
+	"	28	53
+	^	28	54
+	.	28	53
+	+	2	13
+	+	17	38
+	+	29	0
+	+	27	25
+	+	28	53
+
+> ~/vetnote_app/public/css/main.css
+	"	146	21
+	^	146	22
+	.	146	21
+	+	146	21
+
+> ~/vetnote_app/app/views/layouts/application.html.erb
+	"	68	0
+	^	68	42
+	.	68	41
+	+	68	41
+
+> ~/vetnote_app/app/views/layouts/NERD_tree_1
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/vetnote_app/app/views/layouts/admin.html.erb
+	"	64	14
+	.	64	0
+	+	23	0
+	+	64	0
+
+> ~/vetnote_app/app/controllers/NERD_tree_1
+	"	25	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/app/controllers/NERD_tree_2
+	"	25	6
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/public/css/student_list.css
+	"	49	17
+
+> ~/vetnote_app/public/NERD_tree_1
+	"	21	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/public/main_frame.html
+	"	1	0
+
+> ~/vetnote_app/public/css/syllabus.css
+	"	50	14
+	^	50	14
+	.	50	13
+	+	128	27
+	+	135	0
+	+	118	0
+	+	50	13
+
+> ~/vetnote_app/app/assets/stylesheets/application.css
+	"	99	0
+	^	16	1
+	.	16	0
+	+	16	3
+	+	18	0
+	+	17	27
+	+	16	0
+
+> /var/spool/mail/hongs
+	"	31530	14
+
+> ~/vetnote_app/app/controllers/NERD_tree_3
+	"	25	6
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/app/controllers/NERD_tree_4
+	"	12	2
+	.	1	0
+	+	1	0
+
+> ~/vetnote_app/app/controllers/NERD_tree_5
+	"	42	11
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/app/views/webadmin/syllabus.html.erb
+	"	158	9
+	^	101	29
+	.	101	29
+	+	68	24
+	+	27	0
+	+	27	21
+	+	26	31
+	+	97	27
+	+	98	28
+	+	101	29
+
+> ~/vetnote_app/app/controllers/NERD_tree_6
+	"	47	6
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/app/controllers/NERD_tree_7
+	"	11	0
+	.	1	0
+	+	1	0
+
+> ~/vetnote_app/app/controllers/NERD_tree_8
+	"	40	8
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/vetnote_app/app/controllers/NERD_tree_9
+	"	3	0
+	.	1	0
+	+	1	0
+	+	1	0

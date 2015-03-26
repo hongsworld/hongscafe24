@@ -1,0 +1,67 @@
+
+syntax on
+filetype plugin indent on "plugin , indent 한번에 적용
+
+set t_Co=256
+set background=dark
+let g:solarized_termcolors=16
+colorscheme elflord
+
+set nocompatible
+set hlsearch "highlight searches
+set number "show line numbers
+set ruler  "show the current row and colum
+"set paste  "빔안에서 =눌러서 자동 들여쓰기 내여쓰기도 가능
+
+set tabstop=2 "Tab=4 space
+set shiftwidth=2 "auto indent tab = 4 space
+set expandtab " Expand TABs to spaces
+
+"set cindent "auto indent like C
+set cindent
+set autoindent
+
+"status line과 관계된 것
+set ls=2
+
+" Making it so ; works like : for commands. Saves typing and eliminates :W style typos due to lazy holding shift.
+nnoremap ; :
+
+"vim을 꺼도 마지막 cursor 위치 유지
+set viewoptions=cursor
+au BufWinLeave *.rb,*.c,*.cc,*.h,*.html,*.php,Makefile,*.mak mkview
+au BufWinEnter *.rb,*.c,*.cc,*.h,*.html,*.php,Makefile,*.mak silent loadview
+
+"Beomjun Shin's vimrc
+"below is temporary status line
+set statusline=
+set statusline +=%1*\ %n\ %*            "buffer number
+set statusline +=%5*%{&ff}%*            "file format
+set statusline +=%3*%y%*                "file type
+set statusline +=%4*\ %<%F%*            "full path
+set statusline +=%2*%m%*                "modified flag
+set statusline +=%1*%=%5l%*             "current line
+set statusline +=%2*/%L%*               "total lines
+set statusline +=%1*%4v\ %*             "virtual column number
+set statusline +=%2*0x%04B\ %*          "character under cursor
+
+hi User1 guifg=#eea040 guibg=#222222
+hi User2 guifg=#dd3333 guibg=#222222
+hi User3 guifg=#ff66ff guibg=#222222
+hi User4 guifg=#a0ee40 guibg=#222222
+hi User5 guifg=#eeee40 guibg=#222222
+
+" Commenting blocks of code.
+autocmd FileType c,cpp,java,scala let b:comment_leader = '// '
+autocmd FileType sh,ruby,python   let b:comment_leader = '# '
+autocmd FileType conf,fstab       let b:comment_leader = '# '
+autocmd FileType tex              let b:comment_leader = '% '
+autocmd FileType mail             let b:comment_leader = '> '
+autocmd FileType vim              let b:comment_leader = '" '
+noremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
+noremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
+
+                                                                                                                             
+                                                                                                                             
+                                                                                                                             
+                                                                                                                             

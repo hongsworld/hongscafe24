@@ -1,0 +1,674 @@
+[2014-02-27 14:43:11] __rvm_make
+__rvm_make () 
+{ 
+    \make "$@" || return $?
+}
+current path: /user/hongs/.rvm/src/ruby-1.9.3-p545
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1/bin:/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1:/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(2): __rvm_make -j8
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC 
+	XCFLAGS = -include ruby/config.h -include ruby/missing.h -fvisibility=hidden -DRUBY_EXPORT
+	CPPFLAGS =   -I. -I.ext/include/x86_64-linux -I./include -I.
+	DLDFLAGS = -Wl,-soname,libruby.so.1.9  
+	SOLIBS = -lpthread -lrt -ldl -lcrypt -lm  
+compiling main.c
+compiling dmydln.c
+compiling dmyencoding.c
+compiling version.c
+compiling miniprelude.c
+compiling array.c
+compiling bignum.c
+compiling class.c
+compiling compar.c
+compiling complex.c
+compiling dir.c
+compiling dln_find.c
+compiling enum.c
+compiling enumerator.c
+compiling error.c
+compiling eval.c
+compiling load.c
+compiling proc.c
+eval_jump.c: In function ‘rb_exec_end_proc’:
+eval_jump.c:104: warning: variable ‘errinfo’ might be clobbered by ‘longjmp’ or ‘vfork’
+compiling file.c
+compiling gc.c
+compiling hash.c
+compiling inits.c
+compiling io.c
+compiling marshal.c
+compiling math.c
+compiling node.c
+compiling numeric.c
+compiling object.c
+compiling pack.c
+compiling parse.c
+compiling process.c
+compiling random.c
+compiling range.c
+compiling rational.c
+compiling re.c
+compiling regcomp.c
+compiling regenc.c
+compiling regerror.c
+compiling regexec.c
+compiling regparse.c
+compiling regsyntax.c
+compiling ruby.c
+compiling safe.c
+compiling sprintf.c
+compiling signal.c
+compiling st.c
+compiling strftime.c
+compiling string.c
+compiling struct.c
+compiling time.c
+compiling transcode.c
+compiling util.c
+compiling variable.c
+compiling compile.c
+compiling debug.c
+compiling iseq.c
+compiling vm.c
+iseq.c: In function ‘iseq_load’:
+iseq.c:505: warning: dereferencing type-punned pointer will break strict-aliasing rules
+compiling vm_dump.c
+compiling thread.c
+compiling cont.c
+compiling ./enc/ascii.c
+compiling ./enc/us_ascii.c
+compiling ./enc/unicode.c
+compiling ./enc/utf_8.c
+compiling newline.c
+compiling ./missing/strlcpy.c
+compiling ./missing/strlcat.c
+compiling ./missing/setproctitle.c
+compiling addr2line.c
+compiling dmyext.c
+compiling dln.c
+compiling encoding.c
+compiling dmyversion.c
+linking miniruby
+generating encdb.h
+rbconfig.rb updated
+generating enc.mk
+generating prelude.c
+compiling prelude.c
+encdb.h unchanged
+making srcs under enc
+make[1]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[1]: `srcs'를 위해 할 일이 없습니다
+make[1]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+generating transdb.h
+linking static-library libruby-static.a
+linking shared-library libruby.so.1.9.1
+making enc
+make[1]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+compiling ./enc/big5.c
+compiling ./enc/cp949.c
+compiling ./enc/encdb.c
+transdb.h unchanged
+compiling ./enc/euc_jp.c
+compiling ./enc/emacs_mule.c
+compiling ./enc/euc_kr.c
+making trans
+compiling ./enc/euc_tw.c
+make[1]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+compiling ./enc/trans/transdb.c
+compiling ./enc/gb2312.c
+compiling ./enc/gb18030.c
+compiling ./enc/trans/chinese.c
+compiling ./enc/trans/big5.c
+compiling ./enc/gbk.c
+compiling ./enc/iso_8859_1.c
+configuring -test-/array/resize
+configuring -test-/bug-3571
+configuring -test-/bug-3662
+configuring -test-/funcall
+compiling ./enc/iso_8859_2.c
+configuring -test-/load/dot.dot
+configuring -test-/old_thread_select
+configuring -test-/st/numhash
+configuring -test-/string
+configuring -test-/wait_for_single_fd
+configuring -test-/win32/dln
+Failed to configure -test-/win32/dln. It will not be installed.
+configuring -test-/win32/fd_setsize
+Failed to configure -test-/win32/fd_setsize. It will not be installed.
+configuring bigdecimal
+compiling ./enc/iso_8859_3.c
+compiling ./enc/iso_8859_4.c
+compiling ./enc/iso_8859_5.c
+compiling ./enc/iso_8859_6.c
+compiling ./enc/trans/emoji.c
+compiling ./enc/trans/emoji_iso2022_kddi.c
+compiling ./enc/iso_8859_7.c
+compiling ./enc/iso_8859_8.c
+compiling ./enc/trans/emoji_sjis_docomo.c
+compiling ./enc/iso_8859_9.c
+compiling ./enc/iso_8859_10.c
+compiling ./enc/trans/emoji_sjis_kddi.c
+compiling ./enc/iso_8859_11.c
+compiling ./enc/trans/emoji_sjis_softbank.c
+compiling ./enc/iso_8859_13.c
+compiling ./enc/iso_8859_14.c
+configuring continuation
+configuring coverage
+configuring curses
+compiling ./enc/iso_8859_15.c
+compiling ./enc/iso_8859_16.c
+compiling ./enc/koi8_r.c
+compiling ./enc/trans/escape.c
+compiling ./enc/koi8_u.c
+compiling ./enc/trans/gb18030.c
+compiling ./enc/shift_jis.c
+compiling ./enc/trans/gbk.c
+Failed to configure curses. It will not be installed.
+configuring date
+configuring dbm
+compiling ./enc/trans/iso2022.c
+compiling ./enc/trans/japanese.c
+compiling ./enc/utf_16be.c
+compiling ./enc/trans/japanese_euc.c
+compiling ./enc/utf_16le.c
+compiling ./enc/trans/japanese_sjis.c
+compiling ./enc/trans/korean.c
+compiling ./enc/utf_32be.c
+compiling ./enc/utf_32le.c
+compiling ./enc/windows_1251.c
+compiling ./enc/trans/single_byte.c
+linking encoding encdb.so
+linking encoding big5.so
+linking encoding cp949.so
+linking encoding emacs_mule.so
+linking encoding euc_jp.so
+linking encoding euc_kr.so
+compiling ./enc/trans/utf8_mac.c
+linking encoding euc_tw.so
+compiling ./enc/trans/utf_16_32.c
+linking encoding gb2312.so
+linking encoding gb18030.so
+linking encoding gbk.so
+linking encoding iso_8859_1.so
+linking transcoder transdb.so
+linking transcoder chinese.so
+linking transcoder emoji.so
+linking encoding iso_8859_2.so
+linking transcoder emoji_iso2022_kddi.so
+linking transcoder emoji_sjis_docomo.so
+linking encoding iso_8859_3.so
+linking transcoder emoji_sjis_kddi.so
+linking transcoder emoji_sjis_softbank.so
+linking transcoder escape.so
+linking encoding iso_8859_4.so
+linking transcoder gb18030.so
+linking transcoder iso2022.so
+linking encoding iso_8859_5.so
+linking transcoder japanese_euc.so
+linking transcoder japanese.so
+linking encoding iso_8859_6.so
+linking transcoder japanese_sjis.so
+linking transcoder korean.so
+linking encoding iso_8859_7.so
+linking transcoder single_byte.so
+linking transcoder utf8_mac.so
+linking transcoder utf_16_32.so
+linking encoding iso_8859_9.so
+linking encoding iso_8859_8.so
+linking transcoder gbk.so
+linking encoding iso_8859_10.so
+linking encoding iso_8859_11.so
+linking encoding iso_8859_13.so
+linking encoding iso_8859_14.so
+linking encoding iso_8859_15.so
+linking encoding iso_8859_16.so
+linking encoding koi8_r.so
+linking encoding koi8_u.so
+linking encoding shift_jis.so
+linking encoding utf_16be.so
+linking encoding utf_16le.so
+linking encoding utf_32be.so
+linking encoding utf_32le.so
+linking encoding windows_1251.so
+make[1]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+Failed to configure dbm. It will not be installed.
+configuring digest
+configuring digest/bubblebabble
+configuring digest/md5
+linking transcoder big5.so
+make[1]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+making encs
+make[1]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[1]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+configuring digest/rmd160
+configuring digest/sha1
+configuring digest/sha2
+configuring dl
+configuring dl/callback
+configuring dl/win32
+Failed to configure dl/win32. It will not be installed.
+configuring etc
+configuring fcntl
+configuring fiber
+configuring fiddle
+configuring gdbm
+Failed to configure gdbm. It will not be installed.
+configuring iconv
+configuring io/console
+configuring io/nonblock
+configuring io/wait
+configuring json
+configuring json/generator
+configuring json/parser
+configuring mathn/complex
+configuring mathn/rational
+configuring nkf
+configuring objspace
+configuring openssl
+configuring pathname
+configuring psych
+configuring pty
+configuring racc/cparse
+configuring readline
+configuring ripper
+configuring sdbm
+configuring socket
+configuring stringio
+configuring strscan
+configuring syck
+configuring syslog
+configuring tk
+check functions.........
+check struct members..
+check libraries....
+Use ActiveTcl libraries (if available).
+Search tclConfig.sh and tkConfig.sh..............................
+Fail to find [tclConfig.sh, tkConfig.sh]
+Use X11 libraries (or use TK_XINCLUDES/TK_XLIBSW information on tkConfig.sh).
+Warning:: cannot find X11 library. tcltklib will not be compiled (tcltklib is disabled on your Ruby. That is, Ruby/Tk will not work). Please check configure options. If your Tcl/Tk don't require X11, please try --without-X11.
+Can't find X11 libraries. 
+So, can't make tcltklib.so which is required by Ruby/Tk.
+Failed to configure tk. It will not be installed.
+configuring tk/tkutil
+Failed to configure tk/tkutil. It will not be installed.
+configuring win32ole
+Failed to configure win32ole. It will not be installed.
+configuring zlib
+make[1]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/array/resize'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/bug-3571'
+compiling resize.c
+compiling bug.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/old_thread_select'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/bug-3662'
+compiling bug.c
+compiling old_thread_select.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/st/numhash'
+compiling numhash.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/load/dot.dot'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/funcall'
+compiling dot.dot.c
+compiling passing_block.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/string'
+compiling init.c
+installing default dot.dot libraries
+linking shared-object -test-/load/dot.dot/dot.dot.so
+old_thread_select.c: In function ‘old_thread_select’:
+old_thread_select.c:57: warning: ‘rb_thread_select’ is deprecated (declared at ../../.././include/ruby/intern.h:390)
+installing default funcall libraries
+linking shared-object -test-/funcall/funcall.so
+installing default bug libraries
+linking shared-object -test-/bug-3571/bug.so
+installing default resize libraries
+linking shared-object -test-/array/resize.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/load/dot.dot'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/wait_for_single_fd'
+compiling ellipsize.c
+installing default old_thread_select libraries
+linking shared-object -test-/old_thread_select/old_thread_select.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/funcall'
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/bug-3571'
+compiling modify.c
+compiling wait_for_single_fd.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/win32/dln'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/win32/dln'
+installing default bug libraries
+linking shared-object -test-/bug-3662/bug.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/array/resize'
+compiling enc_associate.c
+installing default numhash libraries
+linking shared-object -test-/st/numhash.so
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/win32/fd_setsize'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/win32/fd_setsize'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/bigdecimal'
+compiling bigdecimal.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/old_thread_select'
+compiling cstr.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/continuation'
+compiling continuation.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/st/numhash'
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/bug-3662'
+installing default wait_for_single_fd libraries
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/coverage'
+compiling coverage.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/curses'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/curses'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/date'
+compiling set_len.c
+compiling date_core.c
+installing default continuation libraries
+linking shared-object continuation.so
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dbm'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dbm'
+compiling date_parse.c
+linking shared-object -test-/wait_for_single_fd/wait_for_single_fd.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/continuation'
+compiling date_strptime.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest'
+compiling digest.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/wait_for_single_fd'
+installing default string libraries
+linking shared-object -test-/string/string.so
+compiling date_strftime.c
+installing default coverage libraries
+linking shared-object coverage.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/string'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/bubblebabble'
+compiling bubblebabble.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/coverage'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/md5'
+compiling md5init.c
+installing default bubblebabble libraries
+linking shared-object digest/bubblebabble.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/bubblebabble'
+compiling md5ossl.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/rmd160'
+compiling rmd160init.c
+installing default md5 libraries
+linking shared-object digest/md5.so
+linking shared-object digest.so
+compiling rmd160ossl.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/md5'
+installing digest libraries
+installing default bigdecimal libraries
+installing default digest libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/sha1'
+compiling sha1init.c
+installing default rmd160 libraries
+linking shared-object digest/rmd160.so
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/sha2'
+compiling sha2init.c
+compiling sha1ossl.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/rmd160'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl'
+compiling sha2ossl.c
+compiling handle.c
+installing default sha1 libraries
+linking shared-object digest/sha1.so
+installing default date_core libraries
+linking shared-object digest/sha2.so
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl/callback'
+generating callback.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/sha1'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl/win32'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl/win32'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/etc'
+compiling etc.c
+installing default sha2 libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/sha2'
+compiling dl.c
+compiling cfunc.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fcntl'
+compiling fcntl.c
+installing default callback libraries
+compiling callback.c
+installing default etc libraries
+linking shared-object etc.so
+installing default fcntl libraries
+linking shared-object fcntl.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/etc'
+compiling callback-0.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fcntl'
+compiling cptr.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fiber'
+compiling fiber.c
+installing default fiber libraries
+linking shared-object fiber.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fiber'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fiddle'
+compiling function.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/gdbm'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/gdbm'
+compiling callback-1.c
+compiling conversions.c
+compiling closure.c
+compiling fiddle.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/iconv'
+compiling iconv.c
+linking shared-object fiddle.so
+installing default fiddle libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fiddle'
+compiling callback-2.c
+linking shared-object dl.so
+installing dl libraries
+installing default dl libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl'
+compiling callback-3.c
+linking shared-object bigdecimal.so
+installing default iconv libraries
+linking shared-object iconv.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/bigdecimal'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/console'
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/iconv'
+compiling console.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/nonblock'
+compiling nonblock.c
+compiling callback-4.c
+installing default nonblock libraries
+linking shared-object io/nonblock.so
+linking shared-object io/console.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/nonblock'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/wait'
+compiling wait.c
+installing default console libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/console'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json'
+installing default libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json/generator'
+compiling generator.c
+installing default wait libraries
+linking shared-object io/wait.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/wait'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json/parser'
+compiling parser.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/mathn/complex'
+compiling complex.c
+installing default complex libraries
+linking shared-object mathn/complex.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/mathn/complex'
+compiling callback-5.c
+installing default parser libraries
+linking shared-object json/ext/parser.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json/parser'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/mathn/rational'
+compiling rational.c
+installing default rational libraries
+linking shared-object mathn/rational.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/mathn/rational'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/nkf'
+compiling nkf.c
+installing default generator libraries
+linking shared-object json/ext/generator.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json/generator'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/objspace'
+compiling objspace.c
+compiling callback-6.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/openssl'
+compiling ossl_pkey_dsa.c
+compiling ossl.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/pathname'
+compiling pathname.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/psych'
+compiling psych.c
+installing default objspace libraries
+linking shared-object objspace.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/objspace'
+compiling callback-7.c
+compiling emitter.c
+compiling ossl_pkcs5.c
+compiling ossl_x509ext.c
+compiling parser.c
+compiling yaml_tree.c
+compiling ossl_x509cert.c
+linking shared-object pathname.so
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/pty'
+compiling pty.c
+installing default pathname libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/pathname'
+compiling ossl_bio.c
+compiling to_ruby.c
+compiling ossl_digest.c
+installing default nkf libraries
+compiling callback-8.c
+linking shared-object pty.so
+linking shared-object psych.so
+installing default pty libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/pty'
+compiling ossl_ocsp.c
+installing default psych libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/psych'
+compiling ossl_pkcs7.c
+compiling ossl_x509req.c
+compiling ossl_pkey_rsa.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/racc/cparse'
+compiling cparse.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/readline'
+compiling readline.c
+compiling ossl_bn.c
+installing default readline libraries
+linking shared-object readline.so
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/ripper'
+compiling ripper.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/readline'
+compiling ossl_x509.c
+installing default cparse libraries
+linking shared-object racc/cparse.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/racc/cparse'
+compiling ossl_rand.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/sdbm'
+compiling init.c
+linking shared-object date_core.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/date'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/socket'
+generating constant definitions
+generating constant definitions
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/stringio'
+compiling stringio.c
+compiling init.c
+compiling ossl_ns_spki.c
+compiling constants.c
+compiling _sdbm.c
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/strscan'
+compiling strscan.c
+installing default sdbm libraries
+linking shared-object sdbm.so
+compiling ossl_config.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/sdbm'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/syck'
+compiling yaml2byte.c
+linking shared-object nkf.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/nkf'
+installing default strscan libraries
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/syslog'
+compiling syslog.c
+linking shared-object strscan.so
+compiling implicit.c
+compiling ossl_engine.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/strscan'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/tk'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/tk'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/tk/tkutil'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/tk/tkutil'
+installing default stringio libraries
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/win32ole'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/win32ole'
+compiling ossl_x509attr.c
+installing default syslog libraries
+linking shared-object syslog.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/syslog'
+compiling basicsocket.c
+linking shared-object dl/callback.so
+linking shared-object stringio.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/stringio'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/zlib'
+compiling zlib.c
+compiling handler.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl/callback'
+compiling emitter.c
+compiling openssl_missing.c
+compiling socket.c
+compiling node.c
+compiling gram.c
+compiling ossl_ssl_session.c
+compiling rubyext.c
+compiling ossl_x509name.c
+compiling ossl_pkcs12.c
+compiling ossl_hmac.c
+compiling ossl_pkey_dh.c
+installing default zlib libraries
+compiling ossl_asn1.c
+compiling ipsocket.c
+compiling ossl_x509revoked.c
+compiling syck.c
+compiling tcpsocket.c
+compiling tcpserver.c
+compiling sockssocket.c
+compiling udpsocket.c
+compiling ossl_pkey_ec.c
+compiling token.c
+compiling bytecode.c
+linking shared-object zlib.so
+compiling unixsocket.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/zlib'
+compiling ossl_x509store.c
+compiling ossl_cipher.c
+compiling ossl_ssl.c
+compiling unixserver.c
+compiling option.c
+compiling ossl_x509crl.c
+compiling ossl_pkey.c
+compiling ancdata.c
+compiling raddrinfo.c
+installing default socket libraries
+linking shared-object syck.so
+checking ../.././parse.y and ../.././ext/ripper/eventids2.c
+installing default syck libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/syck'
+installing default openssl libraries
+installing default ripper libraries
+linking shared-object openssl.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/openssl'
+linking shared-object socket.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/socket'
+linking shared-object ripper.so
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/ripper'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+linking ruby
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[1]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'

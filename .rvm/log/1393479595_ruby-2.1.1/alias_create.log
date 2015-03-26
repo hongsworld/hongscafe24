@@ -1,0 +1,20 @@
+[2014-02-27 14:39:55] alias_create_exceute
+alias_create_exceute () 
+{ 
+    for _path in "$rvm_rubies_path" "$rvm_environments_path" "$rvm_wrappers_path";
+    do
+        if [[ -L "$_path/$alias_name" ]]; then
+            \rm -fv "$_path/$alias_name" || return $?;
+        fi;
+        \ln -fsv "$_path/$rvm_ruby_string" "$_path/$alias_name" || return $?;
+    done;
+    __rvm_db_ "$rvm_path/config/alias" "$alias_name" "$rvm_ruby_string"
+}
+current path: /user/hongs/.rvm/src/rvm
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1/bin:/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1:/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(1): alias_create_exceute
+create symbolic link `/user/hongs/.rvm/rubies/default' to `/user/hongs/.rvm/rubies/ruby-2.1.1'
+create symbolic link `/user/hongs/.rvm/environments/default' to `/user/hongs/.rvm/environments/ruby-2.1.1'
+create symbolic link `/user/hongs/.rvm/wrappers/default' to `/user/hongs/.rvm/wrappers/ruby-2.1.1'

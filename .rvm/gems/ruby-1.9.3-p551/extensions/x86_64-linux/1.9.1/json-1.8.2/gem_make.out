@@ -1,0 +1,10 @@
+/user/hongs/.rvm/rubies/ruby-1.9.3-p551/bin/ruby -r ./siteconf20150203-32631-47hhai.rb extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+make: `all'를 위해 할 일이 없습니다
+
+make  install
+installing default libraries

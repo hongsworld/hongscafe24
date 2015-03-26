@@ -1,0 +1,558 @@
+package configuration for libxslt is not found
+package configuration for libxml-2.0 is not found
+package configuration for libiconv is not found
+find_header: checking for libxml/parser.h... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib     '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘main’:
+conftest.c:3: warning: unused parameter ‘argc’
+conftest.c:3: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc -E -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"'  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxml/parser.h>
+/* end */
+
+--------------------
+
+find_header: checking for libxslt/xslt.h... -------------------- yes
+
+"gcc -E -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"'  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxslt/xslt.h>
+/* end */
+
+--------------------
+
+find_header: checking for libexslt/exslt.h... -------------------- yes
+
+"gcc -E -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"'  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libexslt/exslt.h>
+/* end */
+
+--------------------
+
+have_func: checking for iconv_open() in iconv.h... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib     '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘main’:
+conftest.c:7: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <iconv.h>
+ 4: 
+ 5: /*top*/
+ 6: int t() { void ((*volatile p)()); p = (void ((*)()))iconv_open; return 0; }
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     printf("%p", &t);
+11:   }
+12: 
+13:   return 0;
+14: }
+/* end */
+
+--------------------
+
+find_library: checking for xmlParseDoc() in -lxml2... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib     '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: error: ‘xmlParseDoc’ undeclared (first use in this function)
+conftest.c:4: error: (Each undeclared identifier is reported only once
+conftest.c:4: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { void ((*volatile p)()); p = (void ((*)()))xmlParseDoc; return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib     '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: warning: implicit declaration of function ‘xmlParseDoc’
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { xmlParseDoc(); return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+--------------------
+
+find_library: checking for xsltParseStylesheetDoc() in -lxslt... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: error: ‘xsltParseStylesheetDoc’ undeclared (first use in this function)
+conftest.c:4: error: (Each undeclared identifier is reported only once
+conftest.c:4: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { void ((*volatile p)()); p = (void ((*)()))xsltParseStylesheetDoc; return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: warning: implicit declaration of function ‘xsltParseStylesheetDoc’
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { xsltParseStylesheetDoc(); return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+--------------------
+
+find_library: checking for exsltFuncRegister() in -lexslt... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: error: ‘exsltFuncRegister’ undeclared (first use in this function)
+conftest.c:4: error: (Each undeclared identifier is reported only once
+conftest.c:4: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { void ((*volatile p)()); p = (void ((*)()))exsltFuncRegister; return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: warning: implicit declaration of function ‘exsltFuncRegister’
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { exsltFuncRegister(); return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlHasFeature()... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: error: ‘xmlHasFeature’ undeclared (first use in this function)
+conftest.c:4: error: (Each undeclared identifier is reported only once
+conftest.c:4: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { void ((*volatile p)()); p = (void ((*)()))xmlHasFeature; return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: warning: implicit declaration of function ‘xmlHasFeature’
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { xmlHasFeature(); return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlFirstElementChild()... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: error: ‘xmlFirstElementChild’ undeclared (first use in this function)
+conftest.c:4: error: (Each undeclared identifier is reported only once
+conftest.c:4: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { void ((*volatile p)()); p = (void ((*)()))xmlFirstElementChild; return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: warning: implicit declaration of function ‘xmlFirstElementChild’
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { xmlFirstElementChild(); return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:4: error: (Each undeclared identifier is reported only once
+conftest.c:4: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: warning: implicit declaration of function ‘xmlRelaxNGSetParserStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:4: error: (Each undeclared identifier is reported only once
+conftest.c:4: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: warning: implicit declaration of function ‘xmlRelaxNGSetParserStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetValidStructuredErrors()... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: error: ‘xmlRelaxNGSetValidStructuredErrors’ undeclared (first use in this function)
+conftest.c:4: error: (Each undeclared identifier is reported only once
+conftest.c:4: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetValidStructuredErrors; return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: warning: implicit declaration of function ‘xmlRelaxNGSetValidStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { xmlRelaxNGSetValidStructuredErrors(); return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetValidStructuredErrors()... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: error: ‘xmlSchemaSetValidStructuredErrors’ undeclared (first use in this function)
+conftest.c:4: error: (Each undeclared identifier is reported only once
+conftest.c:4: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetValidStructuredErrors; return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: warning: implicit declaration of function ‘xmlSchemaSetValidStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { xmlSchemaSetValidStructuredErrors(); return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetParserStructuredErrors()... -------------------- yes
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: error: ‘xmlSchemaSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:4: error: (Each undeclared identifier is reported only once
+conftest.c:4: error: for each function it appears in.)
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetParserStructuredErrors; return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+"gcc -o conftest -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby/backward -I/user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1 -I. -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include/libxml2 -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/include -I/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/include     -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26"' conftest.c  -L. -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -Wl,-R/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -L/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -Wl,-R/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib -L.  -rdynamic -Wl,-export-dynamic -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0/lib -Wl,-rpath,/user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2  '-Wl,-rpath,/../lib' -Wl,-R -Wl,/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -L/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib -lruby -lexslt -lxslt -lxml2  -lpthread -lrt -ldl -lcrypt -lm   -lc "
+conftest.c: In function ‘t’:
+conftest.c:4: warning: implicit declaration of function ‘xmlSchemaSetParserStructuredErrors’
+conftest.c: In function ‘main’:
+conftest.c:5: warning: unused parameter ‘argv’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: int t() { xmlSchemaSetParserStructuredErrors(); return 0; }
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+/* end */
+
+--------------------
+

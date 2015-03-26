@@ -1,0 +1,14 @@
+[2015-01-05 22:17:45] run_gem_wrappers_regenerate
+run_gem_wrappers_regenerate () 
+{ 
+    gem_install gem-wrappers && gem wrappers regenerate || return $?
+}
+current path: /user/hongs
+GEM_HOME=/user/hongs/.rvm/gems/ruby-1.9.3-p545
+PATH=/user/hongs/.rvm/gems/ruby-1.9.3-p545/bin:/user/hongs/.rvm/gems/ruby-1.9.3-p545@global/bin:/user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-1.9.3-p545:/user/hongs/.rvm/gems/ruby-1.9.3-p545@global
+command(1): run_gem_wrappers_regenerate
+gem gem-wrappers >=1.2.4 is already installed
+/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/yaml.rb:84:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.

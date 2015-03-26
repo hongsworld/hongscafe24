@@ -1,0 +1,43 @@
+{:ancestors{I"Object:EF[I"BasicObject;FI"MockOptions;F[I"Object;FI"Rack::Cache::Options;FI"Bacon::Context;F[I"CacheContextHelpers;F@I"TestHelpers;FI"Rack::Cache::Context;F[@@I"Rack::Cache::Key;F[@I"Rack::Utils;FI"%Rack::Cache::AppEngine::MemCache;F[@I"Rack::Cache::Request;F[I"Rack::Request;FI"Rack::Cache::EntityStore;F[@I"#Rack::Cache::EntityStore::Heap;F[I"Rack::Cache::EntityStore;FI"#Rack::Cache::EntityStore::Disk;F[@ I")Rack::Cache::EntityStore::Disk::Body;F[I"	File;FI"+Rack::Cache::EntityStore::MemCacheBase;F[@ I"$Rack::Cache::EntityStore::Dalli;F[I"+Rack::Cache::EntityStore::MemCacheBase;FI"(Rack::Cache::EntityStore::MemCached;F[@*I"'Rack::Cache::EntityStore::GAEStore;F[@ I"Rack::Cache::CacheControl;F[I"	Hash;FI"Rack::Cache::MetaStore;F[@I"!Rack::Cache::MetaStore::Heap;F[I"Rack::Cache::MetaStore;FI"!Rack::Cache::MetaStore::Disk;F[@6I")Rack::Cache::MetaStore::MemCacheBase;F[@6I""Rack::Cache::MetaStore::Dalli;F[I")Rack::Cache::MetaStore::MemCacheBase;FI"&Rack::Cache::MetaStore::MemCached;F[@=I"%Rack::Cache::MetaStore::GAEStore;F[@6I"Rack::Cache::Response;F[@I"Rack::Response::Helpers;FI"Rack::Cache::Storage;F[@I"TestHelpers;F[I"FileUtils;F:attributes{I"Rack::Cache::Context;F[I"attr_reader backend;FI"attr_reader trace;F@![I"attr_reader root;F@&[I"attr_reader cache;F@-[I"attr_reader cache;F@7[I"attr_reader root;F@9[I"attr_reader cache;F@>[I"attr_reader cache;F@@[I"attr_reader cache;FI"Rack::Cache::Response;F[	I"attr_accessor body;FI"attr_accessor headers;FI"attr_accessor status;FI"attr_reader now;FI"CacheContextHelpers;F[
+I"attr_reader app;FI"attr_reader cache;FI"attr_reader caches;FI"attr_reader response;FI"attr_reader responses;F:class_methods{I"Object;F[I"	call;FI"MockOptions;F[I"new;FI"Rack::Cache::Context;F[I"new;FI"Rack::Cache::Key;F[I"	call;FI"new;F@[I"new;F@[I"new;FI"resolve;F@![I"new;FI"resolve;F@&[I"resolve;F@([I"new;F@+[I"new;F@-[I"new;FI"resolve;F@/[I"new;F@4[I"new;FI"resolve;F@7[I"new;FI"resolve;F@9[I"resolve;F@;[I"new;F@>[I"new;F@@[I"new;FI"resolve;FI"Rack::Cache::Response;F[I"new;FI"Rack::Cache::Storage;F[I"instance;FI"new;FI"Rack::Cache;F[I"new;FI"Rack::Cache::Options;F[I"option_accessor;FI"option_name;F:encodingIu:Encoding
+UTF-8;F:instance_methods{I"Object;F[I"class_def;FI"dumb_app;FI"have_dalli?;FI"have_memcached?;FI"meta_def;FI"meta_eval;FI"metaclass;FI"mock_request;FI"mock_response;FI"need_dalli;FI"need_java;FI"need_memcached;FI"new_key;FI"sha_like?;FI"
+slurp;FI"store_simple_entry;FI"truthy?;FI"Rack::Cache::Context;F[I"backend;FI"	call;FI"
+call!;FI"entitystore;FI"
+fetch;FI"forward;FI"fresh_enough?;FI"invalidate;FI"log_error;FI"lookup;FI"metastore;FI"not_modified?;FI"	pass;FI"private_request?;FI"record;FI"
+store;FI"strip_ignore_headers;FI"
+trace;FI"validate;FI"Rack::Cache::Key;F[I"generate;FI"query_string;F@[I"contains?;FI"delete;FI"get;FI"namespace;FI"namespace=;FI"put;FI"Rack::Cache::Request;F[I"cache_control;FI"no_cache?;FI"request_method;F@[I"bytesize;FI"
+slurp;F@[
+I"exist?;FI"	open;FI"
+purge;FI"	read;FI"
+write;F@![I"body_path;FI"exist?;FI"	open;FI"
+purge;FI"	read;FI"	root;FI"spread;FI"storage_path;FI"
+write;F@&[I"
+cache;FI"	open;F@([	I"exist?;FI"
+purge;FI"	read;FI"
+write;F@+[	I"exist?;FI"
+purge;FI"	read;FI"
+write;F@-[I"
+cache;FI"exist?;FI"	open;FI"
+purge;FI"	read;FI"
+write;F@/[I"max_age;FI"must_revalidate?;FI"no_cache?;FI"no_store?;FI"
+parse;FI"private?;FI"proxy_revalidate?;FI"public?;FI"s_maxage;FI"shared_max_age;FI"	to_s;FI"Rack::Cache::MetaStore;F[I"cache_key;FI"hexdigest;FI"invalidate;FI"lookup;FI"persist_request;FI"persist_response;FI"
+purge;FI"	read;FI"requests_match?;FI"restore_response;FI"
+store;FI"
+write;F@4[	I"
+purge;FI"	read;FI"to_hash;FI"
+write;F@7[I"key_path;FI"
+purge;FI"	read;FI"	root;FI"spread;FI"
+write;F@9[I"
+cache;F@;[I"
+purge;FI"	read;FI"
+write;F@>[	I"
+cache;FI"
+purge;FI"	read;FI"
+write;F@@[	I"
+cache;FI"
+purge;FI"	read;FI"
+write;FI"Rack::Cache::Response;F["I"age;FI"	body;FI"cache_control;FI"cache_control=;FI"cacheable?;FI"client_ttl=;FI"	date;FI"	etag;FI"expire!;FI"expires;FI"fresh?;FI"headers;FI"initialize_copy;FI"last_modified;FI"max_age;FI"max_age=;FI"must_revalidate?;FI"not_modified!;FI"now;FI"private=;FI"shared_max_age=;FI"status;FI"	to_a;FI"ttl;FI"	ttl=;FI"validateable?;FI"	vary;FI"
+vary?;FI"vary_header_names;FI"Rack::Cache::Storage;F[	I"
+clear;FI"create_store;FI"resolve_entitystore_uri;FI"resolve_metastore_uri;FI"Rack::Cache::Options;F[I"initialize_options;F@¢I"options;FI"options=;FI"read_option;FI"set;FI"write_option;FI"CacheContextHelpers;F[I"app;FI"
+cache;FI"cache_config;FI"caches;FI"get;FI"	head;FI"	post;FI"request;FI"respond_with;FI"response;FI"responses;FI"setup_cache_context;FI"teardown_cache_context;FI"TestHelpers;F[I"create_temp_directory;FI"create_temp_file;F:modules['I"
+Bacon;FI"Bacon::Context;F@I"MockOptions;F@I"	Rack;FI"Rack::Cache;FI"Rack::Cache::AppEngine;FI"Rack::Cache::AppEngine::MC;FI")Rack::Cache::AppEngine::MC::(Service;FI"%Rack::Cache::AppEngine::MemCache;FI"Rack::Cache::CacheControl;FI"Rack::Cache::Context;F@ I"$Rack::Cache::EntityStore::Dalli;FI"#Rack::Cache::EntityStore::Disk;FI")Rack::Cache::EntityStore::Disk::Body;FI"'Rack::Cache::EntityStore::GAEStore;FI"#Rack::Cache::EntityStore::Heap;F@*I"(Rack::Cache::EntityStore::MemCached;FI"Rack::Cache::Key;F@6I""Rack::Cache::MetaStore::Dalli;FI"!Rack::Cache::MetaStore::Disk;FI"%Rack::Cache::MetaStore::GAEStore;FI"!Rack::Cache::MetaStore::Heap;F@=I"&Rack::Cache::MetaStore::MemCached;F@I"Rack::Cache::Request;FI"Rack::Cache::Response;FI"Rack::Cache::Storage;F@

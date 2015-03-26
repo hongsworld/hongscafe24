@@ -1,0 +1,19 @@
+/user/hongs/.rvm/rubies/ruby-1.9.3-p551/bin/ruby -r ./siteconf20150203-19255-2v03cu.rb extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+compiling binding_of_caller.c
+binding_of_caller.c:68: warning: missing braces around initializer
+binding_of_caller.c:68: warning: (near initialization for ‘binding_data_type.function’)
+binding_of_caller.c: In function ‘binding_of_caller’:
+binding_of_caller.c:128: warning: ISO C90 forbids mixed declarations and code
+binding_of_caller.c:144: warning: ISO C90 forbids mixed declarations and code
+binding_of_caller.c: In function ‘frame_count’:
+binding_of_caller.c:179: warning: ISO C90 forbids mixed declarations and code
+linking shared-object binding_of_caller.so
+
+make  install
+/usr/bin/install -c -m 0755 binding_of_caller.so .gem.20150203-19255-1ppqc1q
+installing default binding_of_caller libraries

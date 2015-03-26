@@ -1,0 +1,12 @@
+/user/hongs/.rvm/rubies/ruby-1.9.3-p551/bin/ruby -r ./siteconf20150203-19255-18wol8u.rb extconf.rb 
+
+make  clean
+make: *** 타겟 `clean'를 만들 규칙이 없음.  멈춤.
+
+make
+echo "Nada."
+Nada.
+
+make  install
+echo "Nada."
+Nada.

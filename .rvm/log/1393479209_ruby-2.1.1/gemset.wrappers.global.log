@@ -1,0 +1,11 @@
+[2014-02-27 14:39:53] run_gem_wrappers_regenerate
+run_gem_wrappers_regenerate () 
+{ 
+    gem_install gem-wrappers && gem wrappers regenerate || return $?
+}
+current path: /user/hongs/.rvm/src/ruby-2.1.1
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1@global
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(1): run_gem_wrappers_regenerate
+gem gem-wrappers >=1.2.4 is already installed

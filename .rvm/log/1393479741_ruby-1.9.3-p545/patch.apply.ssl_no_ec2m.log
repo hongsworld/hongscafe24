@@ -1,0 +1,13 @@
+[2014-02-27 14:42:29] __rvm_patch
+__rvm_patch () 
+{ 
+    \patch "$@" || return $?
+}
+current path: /user/hongs/.rvm/src/ruby-1.9.3-p545
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1/bin:/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1:/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(8): __rvm_patch -F 25 -p1 -N -f -i /user/hongs/.rvm/patches/ruby/ssl_no_ec2m.patch
+patching file ext/openssl/ossl_pkey_ec.c
+Hunk #1 succeeded at 758 with fuzz 3 (offset -4 lines).
+Hunk #2 succeeded at 821 with fuzz 3 (offset 2 lines).

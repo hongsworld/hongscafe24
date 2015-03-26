@@ -1,0 +1,88 @@
+[2015-01-05 22:29:31] alias_delete_execute
+alias_delete_execute () 
+{ 
+    for _path in "$rvm_rubies_path" "$rvm_environments_path" "$rvm_wrappers_path";
+    do
+        if [[ -L "$_path/$1" ]]; then
+            \command \rm -fv "$_path/$1" || return $?;
+        fi;
+    done;
+    __rvm_db_ "$rvm_path/config/alias" "$1" "delete";
+    alias_after_delete_default "$1" || return $?
+}
+current path: /user/hongs
+GEM_HOME=/user/hongs/.rvm/gems/ruby-1.9.3-p551
+PATH=/user/hongs/.rvm/gems/ruby-1.9.3-p551/bin:/user/hongs/.rvm/gems/ruby-1.9.3-p551@global/bin:/user/hongs/.rvm/rubies/ruby-1.9.3-p551/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-1.9.3-p551:/user/hongs/.rvm/gems/ruby-1.9.3-p551@global
+command(2): alias_delete_execute default
++ for _path in '"$rvm_rubies_path"' '"$rvm_environments_path"' '"$rvm_wrappers_path"'
++ [[ -L /user/hongs/.rvm/rubies/default ]]
++ command rm -fv /user/hongs/.rvm/rubies/default
++ rm -fv /user/hongs/.rvm/rubies/default
+removed `/user/hongs/.rvm/rubies/default'
++ for _path in '"$rvm_rubies_path"' '"$rvm_environments_path"' '"$rvm_wrappers_path"'
++ [[ -L /user/hongs/.rvm/environments/default ]]
++ for _path in '"$rvm_rubies_path"' '"$rvm_environments_path"' '"$rvm_wrappers_path"'
++ [[ -L /user/hongs/.rvm/wrappers/default ]]
++ command rm -fv /user/hongs/.rvm/wrappers/default
++ rm -fv /user/hongs/.rvm/wrappers/default
+removed `/user/hongs/.rvm/wrappers/default'
++ __rvm_db_ /user/hongs/.rvm/config/alias default delete
++ typeset __db __key __value
++ __db=/user/hongs/.rvm/config/alias
++ __key=default
++ shift 2
++ __value=delete
++ case "${__value}" in
++ __rvm_db_remove /user/hongs/.rvm/config/alias default
++ [[ -f /user/hongs/.rvm/config/alias ]]
++ __rvm_sed -e '\#^default=# d' -e '/^$/d' /user/hongs/.rvm/config/alias
++ sed -e '\#^default=# d' -e '/^$/d' /user/hongs/.rvm/config/alias
++ command mv -f /user/hongs/.rvm/config/alias.new /user/hongs/.rvm/config/alias
++ mv -f /user/hongs/.rvm/config/alias.new /user/hongs/.rvm/config/alias
++ alias_after_delete_default default
++ [[ default == \d\e\f\a\u\l\t ]]
++ for _path in '"$rvm_bin_path"/default_*'
++ [[ -f /user/hongs/.rvm/bin/default_* ]]
++ _path='/user/hongs/.rvm/bin/default_*'
++ [[ -f /user/hongs/.rvm/bin/default_* ]]
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path='*'
++ command rm -fv '/user/hongs/.rvm/bin/*'
++ rm -fv '/user/hongs/.rvm/bin/*'
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=gem
++ command rm -fv /user/hongs/.rvm/bin/gem
++ rm -fv /user/hongs/.rvm/bin/gem
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=irb
++ command rm -fv /user/hongs/.rvm/bin/irb
++ rm -fv /user/hongs/.rvm/bin/irb
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=erb
++ command rm -fv /user/hongs/.rvm/bin/erb
++ rm -fv /user/hongs/.rvm/bin/erb
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=ri
++ command rm -fv /user/hongs/.rvm/bin/ri
++ rm -fv /user/hongs/.rvm/bin/ri
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=rdoc
++ command rm -fv /user/hongs/.rvm/bin/rdoc
++ rm -fv /user/hongs/.rvm/bin/rdoc
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=testrb
++ command rm -fv /user/hongs/.rvm/bin/testrb
++ rm -fv /user/hongs/.rvm/bin/testrb
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=rake
++ command rm -fv /user/hongs/.rvm/bin/rake
++ rm -fv /user/hongs/.rvm/bin/rake
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=ruby
++ command rm -fv /user/hongs/.rvm/bin/ruby
++ rm -fv /user/hongs/.rvm/bin/ruby
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=bundle
++ command rm -fv /user/hongs/.rvm/bin/bundle
++ rm -fv /user/hongs/.rvm/bin/bundle

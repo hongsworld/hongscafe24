@@ -1,0 +1,133 @@
+/user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin/ruby extconf.rb
+/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/yaml.rb:84:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.
+Extracting libxml2-2.8.0.tar.gz into tmp/x86_64-redhat-linux/ports/libxml2/2.8.0... OK
+Running 'configure' for libxml2 2.8.0... OK
+Running 'compile' for libxml2 2.8.0... OK
+Running 'install' for libxml2 2.8.0... OK
+Activating libxml2 2.8.0 (from /user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxml2/2.8.0)...
+Extracting libxslt-1.1.26.tar.gz into tmp/x86_64-redhat-linux/ports/libxslt/1.1.26... OK
+Running 'configure' for libxslt 1.1.26... OK
+Running 'compile' for libxslt 1.1.26... OK
+Running 'install' for libxslt 1.1.26... OK
+Activating libxslt 1.1.26 (from /user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ports/x86_64-redhat-linux/libxslt/1.1.26)...
+checking for libxml/parser.h... yes
+checking for libxslt/xslt.h... yes
+checking for libexslt/exslt.h... yes
+checking for iconv_open() in iconv.h... yes
+checking for xmlParseDoc() in -lxml2... yes
+checking for xsltParseStylesheetDoc() in -lxslt... yes
+checking for exsltFuncRegister() in -lexslt... yes
+checking for xmlHasFeature()... yes
+checking for xmlFirstElementChild()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetValidStructuredErrors()... yes
+checking for xmlSchemaSetValidStructuredErrors()... yes
+checking for xmlSchemaSetParserStructuredErrors()... yes
+creating Makefile
+
+make  clean
+
+make
+compiling xml_document_fragment.c
+compiling xml_libxml2_hacks.c
+compiling html_entity_lookup.c
+html_entity_lookup.c: In function ‘get’:
+html_entity_lookup.c:9: warning: unused parameter ‘self’
+compiling xml_encoding_handler.c
+xml_encoding_handler.c: In function ‘delete’:
+xml_encoding_handler.c:24: warning: unused parameter ‘klass’
+xml_encoding_handler.c: In function ‘alias’:
+xml_encoding_handler.c:36: warning: unused parameter ‘klass’
+compiling xml_processing_instruction.c
+compiling xml_dtd.c
+compiling xml_cdata.c
+compiling html_document.c
+compiling xml_entity_reference.c
+compiling html_sax_parser_context.c
+compiling html_sax_push_parser.c
+compiling xml_element_decl.c
+compiling xml_io.c
+xml_io.c: In function ‘io_read_callback’:
+xml_io.c:20: warning: passing argument 4 of ‘rb_rescue’ with different width due to prototype
+xml_io.c: In function ‘io_write_callback’:
+xml_io.c:45: warning: passing argument 4 of ‘rb_rescue’ with different width due to prototype
+xml_io.c: In function ‘io_close_callback’:
+xml_io.c:49: warning: unused parameter ‘ctx’
+compiling xml_text.c
+compiling xml_relax_ng.c
+compiling xml_syntax_error.c
+xml_syntax_error.c: In function ‘Nokogiri_error_raise’:
+xml_syntax_error.c:9: warning: unused parameter ‘ctx’
+compiling xml_comment.c
+compiling xml_sax_parser.c
+xml_sax_parser.c: In function ‘start_element’:
+xml_sax_parser.c:69: warning: passing argument 1 of ‘rb_ary_new3’ with different width due to prototype
+xml_sax_parser.c: In function ‘attributes_as_list’:
+xml_sax_parser.c:90: warning: unused parameter ‘self’
+xml_sax_parser.c: In function ‘start_element_ns’:
+xml_sax_parser.c:128: warning: unused parameter ‘nb_defaulted’
+compiling xml_entity_decl.c
+compiling xml_xpath_context.c
+xml_xpath_context.c: In function ‘lookup’:
+xml_xpath_context.c:165: warning: unused parameter ‘ns_uri’
+xml_xpath_context.c: In function ‘xpath_exception_handler’:
+xml_xpath_context.c:175: warning: unused parameter ‘ctx’
+xml_xpath_context.c: In function ‘xpath_generic_exception_handler’:
+xml_xpath_context.c:184: warning: unused parameter ‘ctx’
+compiling xml_node_set.c
+xml_node_set.c: In function ‘dealloc_namespace’:
+xml_node_set.c:9: warning: cast discards qualifiers from pointer target type
+xml_node_set.c:11: warning: cast discards qualifiers from pointer target type
+xml_node_set.c: In function ‘deallocate’:
+xml_node_set.c:52: warning: passing argument 3 of ‘st_foreach’ with different width due to prototype
+xml_node_set.c: In function ‘allocate’:
+xml_node_set.c:63: warning: unused parameter ‘klass’
+xml_node_set.c: In function ‘to_array’:
+xml_node_set.c:357: warning: unused parameter ‘rb_node’
+compiling xml_sax_parser_context.c
+compiling xml_element_content.c
+compiling xml_schema.c
+compiling xml_namespace.c
+compiling xml_attr.c
+compiling xml_node.c
+xml_node.c: In function ‘get’:
+xml_node.c:746: warning: passing argument 1 of ‘calloc’ with different width due to prototype
+xml_node.c:746: warning: passing argument 2 of ‘calloc’ with different width due to prototype
+compiling xslt_stylesheet.c
+xslt_stylesheet.c: In function ‘parse_stylesheet_doc’:
+xslt_stylesheet.c:72: warning: passing argument 2 of ‘rb_str_new’ with different width due to prototype
+xslt_stylesheet.c:64: warning: unused parameter ‘klass’
+xslt_stylesheet.c: In function ‘swallow_superfluous_xml_errors’:
+xslt_stylesheet.c:112: warning: unused parameter ‘userdata’
+xslt_stylesheet.c:112: warning: unused parameter ‘error’
+xslt_stylesheet.c: In function ‘transform’:
+xslt_stylesheet.c:166: warning: passing argument 2 of ‘rb_str_new’ with different width due to prototype
+xslt_stylesheet.c: In function ‘initFunc’:
+xslt_stylesheet.c:212: warning: passing argument 2 of ‘rb_ary_entry’ with different width due to prototype
+xslt_stylesheet.c: In function ‘shutdownFunc’:
+xslt_stylesheet.c:226: warning: unused parameter ‘uri’
+xslt_stylesheet.c:226: warning: unused parameter ‘data’
+compiling nokogiri.c
+compiling xml_reader.c
+compiling html_element_description.c
+html_element_description.c: In function ‘get_description’:
+html_element_description.c:252: warning: cast discards qualifiers from pointer target type
+compiling xml_sax_push_parser.c
+compiling xml_document.c
+xml_document.c: In function ‘dealloc_node_i’:
+xml_document.c:3: warning: unused parameter ‘key’
+xml_document.c: In function ‘set_encoding’:
+xml_document.c:159: warning: cast discards qualifiers from pointer target type
+xml_document.c: In function ‘canonicalize’:
+xml_document.c:505: warning: cast discards qualifiers from pointer target type
+xml_document.c: In function ‘Nokogiri_wrap_xml_document’:
+xml_document.c:569: warning: passing argument 1 of ‘st_init_numtable_with_size’ with different width due to prototype
+compiling xml_attribute_decl.c
+linking shared-object nokogiri/nokogiri.so
+
+make  install
+/usr/bin/install -c -m 0755 nokogiri.so /user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/nokogiri-1.6.1/ext/nokogiri/.gem.20150105-9840-8x524q/nokogiri
+installing default nokogiri libraries

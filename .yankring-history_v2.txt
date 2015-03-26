@@ -1,0 +1,100 @@
+so ~/.yadr/vim/settings.vim,V
+set nocompatible,V
+regi,v
+        if pq.quest_status.nil? and from_regi == quest.throwing_time and from_birth >= quest.lower_limit_from_birth and from_birth <= quest.higher_limit_from_birth            pet.petquests.where(:quest_id => quest.id).last.quest_status = 1        end,V
+h,v
+        else,V
+_from_birth,v
+        end,V
+        if quest.lower_limit_from_birth.nil?,V
+          if pq.quest_status.nil? and from_regi == quest.throwing_time and             pet.petquests.where(:quest_id => quest.id).last.quest_status = 1          end,V
+          if pq.quest_status.nil? and from_regi == quest.throwing_time            pet.petquests.where(:quest_id => quest.id).last.quest_status = 1          end,V
+        if ,V
+            ,V
+,V
+!,v
+v,v
+    new_quest.quest_status = 0,V
+e,v
+            if from_birth < 36              return,V
+                        if from_birth > 36,V
+              return            end,V
+pq.quest_status.nil?,v
+pq.quest_status.nil?,v
+"고양이 - Ongoing Quest!",v
+양,v
+is is Regi,v
+.self,v
+,,v
+ ,v
+:default =>  ,v
+0,v
+f,v
+i,v
+      when 1        puts "hi",V
+    case quest.throwing_type_id      when,V
+  ,V
+  end,V
+    end,V
+             여기까지 했음,V
+    ,V
+    case required_condition_id      when 1        case pet.how_many_vaccination          when 0 #백신 안맞음            valid_quest.self()          when 1 #백신 1차            if from_birth < 36              return            end                        if from_birth > 36             여기까지 했음             end          when 2 #백신 2차            if from_birth < 50              return            end          when 3 #백신 3차            if from_birth < 64              return            end          when 4 #백신 4차            if from_birth < 78              return            end          when 5 #백신 5차            if from_birth < 92              return            end          when 6 #백신 6차             if from_birth < 106              return            end        end      when 2      when 3      when 4      when 5      when 6      when 7      when 8      when 9      when 10      when 11      when 12      when 13      when 14      when 15      when 16      when 17      when 18      when 19      when 20      when 21      when 22      when 23    end,V
+  end ,V
+m,v
+t,v
+_,v
+hhhhhhhhhhh,v
+    <meta name="viewport" content="user-scalable=no, width=720 "/>,V
+1번 문항<br>More Bad : <%=@item_1.count(1)%><br>Bad : <%=@item_2.count(2)%><br>Normal : <%=@item_2.count(3)%><br>Good : <%=@item_2.count(4)%><br>More Good : <%=@item_2.count(5)%><br><br>,V
+Bad,v
+<br>Bad : <%=@item_2.count(2)%>,V
+1번 문항<br>More Bad : <%=@item_1.count(1)%><br>,V
+    @item_1    @item_2.sort!    @item_3.sort!    @item_4.sort!    @item_5.sort!    @item_6.sort!    @item_7.sort!    @item_8.sort!,V
+.sort!,v
+j,v
+    item_1.sort!,V
+      item_1 << x.item_1,V
+=,v
+],v
+1,v
+[,v
+Hash,v
+Hash.new,v
+:,v
+    item_1 = Hash.new,V
+    item_1 = Hash.new    item_1 = Hash.new,V
+    r1 = Array.new    r2 = Array.new    r3 = Array.new,V
+@,v
+    simply = Array.new,V
+    simply.each do |r|      if r != nil?      end    end,V
+    e.item_2 = r2,V
+    e.item_7 = r2    e.item_2 = r2    error_code = 1    data = {:error_code => error_code}    render :json => data.to_json  endend,V
+    params["radio-choice-1"],V
+      t.integer :item_1,V
+      t.,V
+#,v
+initial-scale=1, ,v
+height=device-height, target-densitydpi=320" />,v
+ maximum-scale=1, minimum-scale=1,v
+d,v
+w,v
+-,v
+c,v
+ffca10,v
+             $("#result_modal_close").attr("href","#target2") ,V
+x,v
+l,v
+a,v
+o,v
+.,v
+P,v
+s,v
+              return,V
+              break,V
+            from_birth < 50,V
+        ,V
+condition,v
+birthday,v
+birth,v
+    from_birth = Date.today - Date.new(pet.birthday.year, pet.birthday.month, pet.birthday.day),V
+    from_birth  = Date.,V

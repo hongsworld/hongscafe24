@@ -1,0 +1,57 @@
+[2014-02-27 14:39:06] gemset_import_list
+gemset_import_list () 
+{ 
+    typeset line;
+    for line in "$@";
+    do
+        gem_install $line || rvm_error "there was an error installing gem $line";
+    done
+}
+current path: /user/hongs/.rvm/src/ruby-2.1.1
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1@global
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(6): gemset_import_list gem-wrappers rubygems-bundler bundler rake rvm
+[2014-02-27 14:39:06] gem
+current path: /user/hongs/.rvm/src/ruby-2.1.1
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1@global
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(5): gem install /user/hongs/.rvm/gem-cache/gem-wrappers-1.2.4.gem --no-ri --no-rdoc
+installing gem /user/hongs/.rvm/gem-cache/gem-wrappers-1.2.4.gem --no-ri --no-rdoc
+Building native extensions.  This could take a while...
+Successfully installed gem-wrappers-1.2.4
+1 gem installed
+[2014-02-27 14:39:13] gem
+current path: /user/hongs/.rvm/src/ruby-2.1.1
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1@global
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(5): gem install rubygems-bundler --no-ri --no-rdoc
+installing gem rubygems-bundler --no-ri --no-rdoc
+Successfully installed bundler-unload-1.0.2
+Building native extensions.  This could take a while...
+# In case of problems run the following command to update binstubs:
+gem regenerate_binstubs
+Successfully installed executable-hooks-1.3.1
+Successfully installed rubygems-bundler-1.4.2
+3 gems installed
+[2014-02-27 14:39:38] gem
+current path: /user/hongs/.rvm/src/ruby-2.1.1
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1@global
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(5): gem install bundler --no-ri --no-rdoc
+installing gem bundler --no-ri --no-rdoc
+Successfully installed bundler-1.5.3
+1 gem installed
+gem rake  is already installed
+[2014-02-27 14:39:49] gem
+current path: /user/hongs/.rvm/src/ruby-2.1.1
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1@global
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(5): gem install /user/hongs/.rvm/gem-cache/rvm-1.11.3.9.gem --no-ri --no-rdoc
+installing gem /user/hongs/.rvm/gem-cache/rvm-1.11.3.9.gem --no-ri --no-rdoc
+Successfully installed rvm-1.11.3.9
+1 gem installed

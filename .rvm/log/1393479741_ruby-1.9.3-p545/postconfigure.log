@@ -1,0 +1,16 @@
+[2014-02-27 14:43:11] __rvm_post_configure_ruby
+__rvm_post_configure_ruby () 
+{ 
+    typeset option;
+    if (( ${rvm_static_flag:-0} == 1 )); then
+        for option in 'option nodynamic' openssl psych zlib readline;
+        do
+            __rvm_update_ext_setup ${option};
+        done;
+    fi
+}
+current path: /user/hongs/.rvm/src/ruby-1.9.3-p545
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1/bin:/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1:/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(1): __rvm_post_configure_ruby

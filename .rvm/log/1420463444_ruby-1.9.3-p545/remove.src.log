@@ -1,0 +1,10 @@
+[2015-01-05 22:10:44] __rvm_rm_rf
+__rvm_rm_rf () 
+{ 
+    __rvm_rm_rf_verbose "$@"
+}
+current path: /user/hongs
+GEM_HOME=/user/hongs/.rvm/gems/ruby-1.9.3-p545
+PATH=/user/hongs/.rvm/gems/ruby-1.9.3-p545/bin:/user/hongs/.rvm/gems/ruby-1.9.3-p545@global/bin:/user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin:/user/hongs/.rvm/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-1.9.3-p545:/user/hongs/.rvm/gems/ruby-1.9.3-p545@global
+command(2): __rvm_rm_rf /user/hongs/.rvm/src/ruby-1.9.3-p545

@@ -1,0 +1,13 @@
+[2014-02-27 14:45:07] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /user/hongs/.rvm/src/ruby-1.9.3-p545
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1/bin:/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1:/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(9): __rvm_set_executable /user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin/erb /user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin/gem /user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin/irb /user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin/rake /user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin/rdoc /user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin/ri /user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin/ruby /user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin/testrb

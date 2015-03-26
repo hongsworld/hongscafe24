@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"responses:EFI""CacheContextHelpers#responses;FI"R;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"MAn Array of Rack::Response instances for each request, in request order.;T:
+@file0FI"test/spec_setup.rb;T

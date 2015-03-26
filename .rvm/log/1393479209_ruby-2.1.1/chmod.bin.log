@@ -1,0 +1,11 @@
+[2014-02-27 14:39:04] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /user/hongs/.rvm/src/ruby-2.1.1
+PATH=/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin:/user/hongs/.rvm/bin
+command(9): __rvm_set_executable /user/hongs/.rvm/rubies/ruby-2.1.1/bin/erb /user/hongs/.rvm/rubies/ruby-2.1.1/bin/gem /user/hongs/.rvm/rubies/ruby-2.1.1/bin/irb /user/hongs/.rvm/rubies/ruby-2.1.1/bin/rake /user/hongs/.rvm/rubies/ruby-2.1.1/bin/rdoc /user/hongs/.rvm/rubies/ruby-2.1.1/bin/ri /user/hongs/.rvm/rubies/ruby-2.1.1/bin/ruby /user/hongs/.rvm/rubies/ruby-2.1.1/bin/testrb

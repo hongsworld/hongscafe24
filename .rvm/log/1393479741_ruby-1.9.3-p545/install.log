@@ -1,0 +1,246 @@
+[2014-02-27 14:45:04] __rvm_make
+__rvm_make () 
+{ 
+    \make "$@" || return $?
+}
+current path: /user/hongs/.rvm/src/ruby-1.9.3-p545
+GEM_HOME=/user/hongs/.rvm/gems/ruby-2.1.1
+PATH=/user/hongs/.rvm/gems/ruby-2.1.1/bin:/user/hongs/.rvm/gems/ruby-2.1.1@global/bin:/user/hongs/.rvm/rubies/ruby-2.1.1/bin:/user/hongs/.rvm/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin
+GEM_PATH=/user/hongs/.rvm/gems/ruby-2.1.1:/user/hongs/.rvm/gems/ruby-2.1.1@global
+command(2): __rvm_make install
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -ggdb -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC 
+	XCFLAGS = -include ruby/config.h -include ruby/missing.h -fvisibility=hidden -DRUBY_EXPORT
+	CPPFLAGS =   -I. -I.ext/include/x86_64-linux -I./include -I.
+	DLDFLAGS = -Wl,-soname,libruby.so.1.9  
+	SOLIBS = -lpthread -lrt -ldl -lcrypt -lm  
+generating encdb.h
+encdb.h unchanged
+making enc
+make[1]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[1]: `enc'를 위해 할 일이 없습니다
+make[1]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+making srcs under enc
+make[1]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[1]: `srcs'를 위해 할 일이 없습니다
+make[1]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+generating transdb.h
+transdb.h unchanged
+making trans
+make[1]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[1]: `./enc/trans'를 위해 할 일이 없습니다
+make[1]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+making encs
+make[1]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[1]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[1]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/array/resize'
+installing default resize libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/array/resize'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/bug-3571'
+installing default bug libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/bug-3571'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/bug-3662'
+installing default bug libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/bug-3662'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/funcall'
+installing default funcall libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/funcall'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/load/dot.dot'
+installing default dot.dot libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/load/dot.dot'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/old_thread_select'
+installing default old_thread_select libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/old_thread_select'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/st/numhash'
+installing default numhash libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/st/numhash'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/string'
+installing default string libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/string'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/wait_for_single_fd'
+installing default wait_for_single_fd libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/wait_for_single_fd'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/win32/dln'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/win32/dln'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/win32/fd_setsize'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/-test-/win32/fd_setsize'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/bigdecimal'
+installing default bigdecimal libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/bigdecimal'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/continuation'
+installing default continuation libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/continuation'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/coverage'
+installing default coverage libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/coverage'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/curses'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/curses'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/date'
+installing default date_core libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/date'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dbm'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dbm'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest'
+installing digest libraries
+installing default digest libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/bubblebabble'
+installing default bubblebabble libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/bubblebabble'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/md5'
+installing default md5 libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/md5'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/rmd160'
+installing default rmd160 libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/rmd160'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/sha1'
+installing default sha1 libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/sha1'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/sha2'
+installing default sha2 libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/digest/sha2'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl'
+installing dl libraries
+installing default dl libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl/callback'
+installing default callback libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl/callback'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl/win32'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/dl/win32'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/etc'
+installing default etc libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/etc'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fcntl'
+installing default fcntl libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fcntl'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fiber'
+installing default fiber libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fiber'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fiddle'
+installing default fiddle libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/fiddle'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/gdbm'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/gdbm'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/iconv'
+installing default iconv libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/iconv'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/console'
+installing default console libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/console'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/nonblock'
+installing default nonblock libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/nonblock'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/wait'
+installing default wait libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/io/wait'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json'
+installing default libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json/generator'
+installing default generator libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json/generator'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json/parser'
+installing default parser libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/json/parser'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/mathn/complex'
+installing default complex libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/mathn/complex'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/mathn/rational'
+installing default rational libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/mathn/rational'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/nkf'
+installing default nkf libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/nkf'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/objspace'
+installing default objspace libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/objspace'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/openssl'
+installing default openssl libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/openssl'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/pathname'
+installing default pathname libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/pathname'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/psych'
+installing default psych libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/psych'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/pty'
+installing default pty libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/pty'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/racc/cparse'
+installing default cparse libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/racc/cparse'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/readline'
+installing default readline libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/readline'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/ripper'
+installing default ripper libraries
+checking ../.././parse.y and ../.././ext/ripper/eventids2.c
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/ripper'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/sdbm'
+installing default sdbm libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/sdbm'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/socket'
+installing default socket libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/socket'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/stringio'
+installing default stringio libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/stringio'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/strscan'
+installing default strscan libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/strscan'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/syck'
+installing default syck libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/syck'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/syslog'
+installing default syslog libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/syslog'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/tk'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/tk'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/tk/tkutil'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/tk/tkutil'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/win32ole'
+make[2]: `all'를 위해 할 일이 없습니다
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/win32ole'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/zlib'
+installing default zlib libraries
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545/ext/zlib'
+make[2]: Entering directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[2]: `ruby'는 이미 갱신되었습니다.
+make[2]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+make[1]: Leaving directory `/user/hongs/.rvm/src/ruby-1.9.3-p545'
+./miniruby -I./lib -I. -I.ext/common  ./tool/rbinstall.rb --make="make" --dest-dir="" --extout=".ext" --mflags="" --make-flags="" --data-mode=0644 --prog-mode=0755 --installed-list .installed.list --mantype="doc"
+installing binary commands:   /user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin
+installing base libraries:    /user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib
+installing arch files:        /user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/x86_64-linux
+installing pkgconfig data:    /user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/pkgconfig
+installing command scripts:   /user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin
+installing library scripts:   /user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1
+installing common headers:    /user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1
+installing manpages:          /user/hongs/.rvm/rubies/ruby-1.9.3-p545/share/man/man1
+installing extension objects: /user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/x86_64-linux
+installing extension objects: /user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/site_ruby/1.9.1/x86_64-linux
+installing extension objects: /user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/vendor_ruby/1.9.1/x86_64-linux
+installing extension headers: /user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/x86_64-linux
+installing extension scripts: /user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1
+installing extension scripts: /user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/site_ruby/1.9.1
+installing extension scripts: /user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/vendor_ruby/1.9.1
+installing extension headers: /user/hongs/.rvm/rubies/ruby-1.9.3-p545/include/ruby-1.9.1/ruby
+installing default gems:      /user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/gems/1.9.1 (cache, doc, gems, specifications)
+                              rake 0.9.2.2
+                              rdoc 3.9.5
+                              minitest 2.5.1
+                              json 1.5.5
+                              io-console 0.3
+                              bigdecimal 1.1.0

@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"remainder:EFI"!SQLite3::Statement#remainder;TI"R;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"MThis is any text that followed the first valid SQL statement in the text;TI"Mwith which the statement was initialized. If there was no trailing text,;TI"#this will be the empty string.;T:
+@fileI"lib/sqlite3/statement.rb;TF@

@@ -1,0 +1,12 @@
+/user/hongs/.rvm/rubies/ruby-1.9.3-p551/bin/ruby -r ./siteconf20150105-1746-11arnnv.rb extconf.rb
+creating Makefile
+
+make  clean
+
+make
+compiling parser.c
+linking shared-object json/ext/parser.so
+
+make  install
+/usr/bin/install -c -m 0755 parser.so .gem.20150105-1746-1qc311u/json/ext
+installing default parser libraries

@@ -1,0 +1,1 @@
+/user/hongs/.yadr/vim

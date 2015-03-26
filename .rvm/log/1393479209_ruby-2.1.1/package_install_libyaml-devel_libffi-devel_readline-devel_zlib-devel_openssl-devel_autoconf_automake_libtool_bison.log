@@ -1,0 +1,169 @@
+[2014-02-27 14:33:29] requirements_centos_libs_install
+requirements_centos_libs_install () 
+{ 
+    __rvm_try_sudo yum install -y "$@" || return $?
+}
+current path: /user/hongs/.rvm/src/rvm
+PATH=/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/hongs/bin:/user/hongs/.rvm/bin
+command(10): requirements_centos_libs_install libyaml-devel libffi-devel readline-devel zlib-devel openssl-devel autoconf automake libtool bison
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+Excluding mirror: data.nicehosting.co.kr
+ * addons: ftp.neowiz.com
+Excluding mirror: data.nicehosting.co.kr
+ * base: ftp.neowiz.com
+ * epel: mirror.premi.st
+Excluding mirror: data.nicehosting.co.kr
+ * extras: ftp.neowiz.com
+Excluding mirror: data.nicehosting.co.kr
+ * updates: ftp.neowiz.com
+Excluding Packages from CentOS-5 - Base
+Finished
+Excluding Packages from CentOS-5 - Updates
+Finished
+Setting up Install Process
+Resolving Dependencies
+--> Running transaction check
+---> Package autoconf.noarch 0:2.59-12 set to be updated
+--> Processing Dependency: imake for package: autoconf
+---> Package automake.noarch 0:1.9.6-2.3.el5 set to be updated
+---> Package bison.x86_64 0:2.3-2.1 set to be updated
+---> Package libffi-devel.i386 0:3.0.5-1.el5 set to be updated
+--> Processing Dependency: libffi = 3.0.5-1.el5 for package: libffi-devel
+--> Processing Dependency: pkgconfig for package: libffi-devel
+--> Processing Dependency: libffi.so.5 for package: libffi-devel
+---> Package libffi-devel.x86_64 0:3.0.5-1.el5 set to be updated
+---> Package libtool.x86_64 0:1.5.22-7.el5_4 set to be updated
+---> Package libyaml-devel.i386 0:0.1.2-3.el5 set to be updated
+--> Processing Dependency: libyaml = 0.1.2-3.el5 for package: libyaml-devel
+--> Processing Dependency: libyaml-0.so.1 for package: libyaml-devel
+---> Package libyaml-devel.x86_64 0:0.1.2-3.el5 set to be updated
+---> Package openssl-devel.i386 0:0.9.8e-27.el5_10.1 set to be updated
+--> Processing Dependency: krb5-devel for package: openssl-devel
+---> Package openssl-devel.x86_64 0:0.9.8e-27.el5_10.1 set to be updated
+---> Package readline-devel.i386 0:5.1-3.el5 set to be updated
+--> Processing Dependency: libtermcap-devel for package: readline-devel
+---> Package readline-devel.x86_64 0:5.1-3.el5 set to be updated
+---> Package zlib-devel.i386 0:1.2.3-7.el5 set to be updated
+---> Package zlib-devel.x86_64 0:1.2.3-7.el5 set to be updated
+--> Running transaction check
+---> Package imake.x86_64 0:1.0.2-3 set to be updated
+---> Package krb5-devel.x86_64 0:1.6.1-70.el5_9.2 set to be updated
+--> Processing Dependency: libselinux-devel for package: krb5-devel
+--> Processing Dependency: e2fsprogs-devel for package: krb5-devel
+--> Processing Dependency: keyutils-libs-devel for package: krb5-devel
+---> Package libffi.i386 0:3.0.5-1.el5 set to be updated
+---> Package libffi.x86_64 0:3.0.5-1.el5 set to be updated
+---> Package libtermcap-devel.x86_64 0:2.0.8-46.1 set to be updated
+---> Package libyaml.i386 0:0.1.2-3.el5 set to be updated
+---> Package libyaml.x86_64 0:0.1.2-3.el5 set to be updated
+---> Package pkgconfig.x86_64 1:0.21-2.el5 set to be updated
+--> Running transaction check
+---> Package e2fsprogs-devel.x86_64 0:1.39-36.el5_9 set to be updated
+---> Package keyutils-libs-devel.x86_64 0:1.2-1.el5 set to be updated
+---> Package libselinux-devel.x86_64 0:1.33.4-5.7.el5 set to be updated
+--> Processing Dependency: libsepol-devel >= 1.15.2-1 for package: libselinux-devel
+--> Running transaction check
+---> Package libsepol-devel.x86_64 0:1.15.2-3.el5 set to be updated
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                 Arch       Version                   Repository   Size
+================================================================================
+Installing:
+ autoconf                noarch     2.59-12                   base        647 k
+ automake                noarch     1.9.6-2.3.el5             base        476 k
+ bison                   x86_64     2.3-2.1                   base        549 k
+ libffi-devel            i386       3.0.5-1.el5               epel         16 k
+ libffi-devel            x86_64     3.0.5-1.el5               epel         16 k
+ libtool                 x86_64     1.5.22-7.el5_4            base        667 k
+ libyaml-devel           i386       0.1.2-3.el5               epel        113 k
+ libyaml-devel           x86_64     0.1.2-3.el5               epel        112 k
+ openssl-devel           i386       0.9.8e-27.el5_10.1        updates     1.9 M
+ openssl-devel           x86_64     0.9.8e-27.el5_10.1        updates     1.9 M
+ readline-devel          i386       5.1-3.el5                 base        146 k
+ readline-devel          x86_64     5.1-3.el5                 base        159 k
+ zlib-devel              i386       1.2.3-7.el5               base        102 k
+ zlib-devel              x86_64     1.2.3-7.el5               base        103 k
+Installing for dependencies:
+ e2fsprogs-devel         x86_64     1.39-36.el5_9             base        639 k
+ imake                   x86_64     1.0.2-3                   base        319 k
+ keyutils-libs-devel     x86_64     1.2-1.el5                 base         27 k
+ krb5-devel              x86_64     1.6.1-70.el5_9.2          base        1.9 M
+ libffi                  i386       3.0.5-1.el5               epel         21 k
+ libffi                  x86_64     3.0.5-1.el5               epel         24 k
+ libselinux-devel        x86_64     1.33.4-5.7.el5            base        149 k
+ libsepol-devel          x86_64     1.15.2-3.el5              base        192 k
+ libtermcap-devel        x86_64     2.0.8-46.1                base         56 k
+ libyaml                 i386       0.1.2-3.el5               epel         54 k
+ libyaml                 x86_64     0.1.2-3.el5               epel         53 k
+ pkgconfig               x86_64     1:0.21-2.el5              base         61 k
+
+Transaction Summary
+================================================================================
+Install      26 Package(s)
+Upgrade       0 Package(s)
+
+Total download size: 10 M
+Downloading Packages:
+--------------------------------------------------------------------------------
+Total                                           2.0 MB/s |  10 MB     00:04     
+Running rpm_check_debug
+Running Transaction Test
+Finished Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Installing     : libyaml                                                 1/26 
+  Installing     : libffi                                                  2/26 
+  Installing     : pkgconfig                                               3/26 
+  Installing     : imake                                                   4/26 
+  Installing     : bison                                                   5/26 
+  Installing     : autoconf                                                6/26 
+  Installing     : zlib-devel                                              7/26 
+  Installing     : libtermcap-devel                                        8/26 
+  Installing     : automake                                                9/26 
+  Installing     : e2fsprogs-devel                                        10/26 
+  Installing     : keyutils-libs-devel                                    11/26 
+  Installing     : libsepol-devel                                         12/26 
+  Installing     : libffi                                                 13/26 
+  Installing     : libyaml                                                14/26 
+  Installing     : libselinux-devel                                       15/26 
+  Installing     : krb5-devel                                             16/26 
+  Installing     : libyaml-devel                                          17/26 
+  Installing     : readline-devel                                         18/26 
+  Installing     : openssl-devel                                          19/26 
+  Installing     : libffi-devel                                           20/26 
+  Installing     : libtool                                                21/26 
+  Installing     : readline-devel                                         22/26 
+  Installing     : zlib-devel                                             23/26 
+  Installing     : openssl-devel                                          24/26 
+  Installing     : libffi-devel                                           25/26 
+  Installing     : libyaml-devel                                          26/26 
+
+Installed:
+  autoconf.noarch 0:2.59-12                                                     
+  automake.noarch 0:1.9.6-2.3.el5                                               
+  bison.x86_64 0:2.3-2.1                                                        
+  libffi-devel.i386 0:3.0.5-1.el5                                               
+  libffi-devel.x86_64 0:3.0.5-1.el5                                             
+  libtool.x86_64 0:1.5.22-7.el5_4                                               
+  libyaml-devel.i386 0:0.1.2-3.el5                                              
+  libyaml-devel.x86_64 0:0.1.2-3.el5                                            
+  openssl-devel.i386 0:0.9.8e-27.el5_10.1                                       
+  openssl-devel.x86_64 0:0.9.8e-27.el5_10.1                                     
+  readline-devel.i386 0:5.1-3.el5                                               
+  readline-devel.x86_64 0:5.1-3.el5                                             
+  zlib-devel.i386 0:1.2.3-7.el5                                                 
+  zlib-devel.x86_64 0:1.2.3-7.el5                                               
+
+Dependency Installed:
+  e2fsprogs-devel.x86_64 0:1.39-36.el5_9   imake.x86_64 0:1.0.2-3              
+  keyutils-libs-devel.x86_64 0:1.2-1.el5   krb5-devel.x86_64 0:1.6.1-70.el5_9.2
+  libffi.i386 0:3.0.5-1.el5                libffi.x86_64 0:3.0.5-1.el5         
+  libselinux-devel.x86_64 0:1.33.4-5.7.el5 libsepol-devel.x86_64 0:1.15.2-3.el5
+  libtermcap-devel.x86_64 0:2.0.8-46.1     libyaml.i386 0:0.1.2-3.el5          
+  libyaml.x86_64 0:0.1.2-3.el5             pkgconfig.x86_64 1:0.21-2.el5       
+
+Complete!

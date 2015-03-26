@@ -1,0 +1,13 @@
+/user/hongs/.rvm/rubies/ruby-1.9.3-p551/bin/ruby -r ./siteconf20150105-20415-7889hl.rb extconf.rb
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/4.0.57/rubyext-ruby-1.9.3-x86_64-linux.tar.gz into /user/hongs/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.57/download_cache
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/4.0.57/webhelper-1.6.2-x86_64-linux.tar.gz into /user/hongs/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.57/download_cache
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/4.0.57/support-x86_64-linux.tar.gz into /user/hongs/.rvm/gems/ruby-1.9.3-p551/gems/passenger-4.0.57/download_cache
+
+make  clean
+make: *** 타겟 `clean'를 만들 규칙이 없음.  멈춤.
+
+make
+true
+
+make  install
+true

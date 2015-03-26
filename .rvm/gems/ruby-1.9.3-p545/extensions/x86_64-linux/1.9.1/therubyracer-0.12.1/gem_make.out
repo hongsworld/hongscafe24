@@ -1,0 +1,65 @@
+/user/hongs/.rvm/rubies/ruby-1.9.3-p545/bin/ruby extconf.rb 
+checking for main() in -lpthread... yes
+/user/hongs/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/yaml.rb:84:in `<top (required)>':
+It seems your ruby installation is missing psych (for YAML output).
+To eliminate this warning, please install libyaml and reinstall your ruby.
+creating Makefile
+
+make  clean
+
+make
+compiling trycatch.cc
+trycatch.cc:87:2: warning: no newline at end of file
+compiling constraints.cc
+constraints.cc:52:2: warning: no newline at end of file
+compiling rr.cc
+rr.cc:83:2: warning: no newline at end of file
+compiling locker.cc
+compiling gc.cc
+gc.cc:43:2: warning: no newline at end of file
+compiling template.cc
+template.cc:175:2: warning: no newline at end of file
+compiling message.cc
+message.cc:51:2: warning: no newline at end of file
+compiling backref.cc
+compiling signature.cc
+signature.cc:18:2: warning: no newline at end of file
+compiling function.cc
+function.cc:58:2: warning: no newline at end of file
+compiling value.cc
+value.cc:239:2: warning: no newline at end of file
+compiling context.cc
+compiling date.cc
+date.cc:18:2: warning: no newline at end of file
+compiling primitive.cc
+primitive.cc:8:2: warning: no newline at end of file
+compiling string.cc
+string.cc:47:17: warning: no newline at end of file
+compiling invocation.cc
+invocation.cc:86:2: warning: no newline at end of file
+compiling stack.cc
+stack.cc:76:2: warning: no newline at end of file
+compiling handles.cc
+handles.cc:34:2: warning: no newline at end of file
+compiling external.cc
+external.cc:43:2: warning: no newline at end of file
+compiling array.cc
+array.cc:26:2: warning: no newline at end of file
+compiling exception.cc
+exception.cc:38:2: warning: no newline at end of file
+compiling heap.cc
+compiling accessor.cc
+accessor.cc:181:2: warning: no newline at end of file
+compiling init.cc
+init.cc:39:2: warning: no newline at end of file
+compiling v8.cc
+v8.cc:87:2: warning: no newline at end of file
+compiling object.cc
+compiling constants.cc
+constants.cc:34:2: warning: no newline at end of file
+compiling script.cc
+linking shared-object v8/init.so
+
+make  install
+/usr/bin/install -c -m 0755 init.so /user/hongs/.rvm/gems/ruby-1.9.3-p545/gems/therubyracer-0.12.1/ext/v8/.gem.20150105-23760-udglwy/v8
+installing default init libraries
